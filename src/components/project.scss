@@ -1,0 +1,14 @@
+.project {
+  &-title {
+    font-size: 30px;
+  }
+
+  &-image {
+    display: block;
+    width: 100%;
+  }
+
+  & + .project {
+    margin-top: 50px;
+  }
+}
