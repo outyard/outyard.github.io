@@ -11,7 +11,7 @@ const Project = ({title, author, image, video, github, files, children}) => {
         <img className="project-image" src={image} alt="" />
       }
       {video &&
-        <video className="project-video" autoPlay={true} loop={true}>
+        <video className="project-video" autoPlay={true} loop={true} muted={true}>
           <source src={video} type="video/mp4" />
         </video>
       }
