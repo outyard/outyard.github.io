@@ -54,7 +54,7 @@ const IndexPage = () => (
 
       <Project
           title="Platform jumping game"
-          author="Peter Öhlmer"
+          author="Peter Öhlmér"
           image=""
           files=""
           github="">
