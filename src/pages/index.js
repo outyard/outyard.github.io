@@ -46,7 +46,6 @@ const IndexPage = () => (
           title="Shooter"
           author="Carl Enlund"
           image="/images/Shooter.png"
-          site="https://outyardshooter.herokuapp.com"
           files=""
           github="https://github.com/outyard/shooter">
         <p>A web-based first-person shooter where the players fight eachother to see who first scores 10 points. The game contains 5 unique maps which are cycled through after each win. Plays sound effects for gunshots and when a player wins.</p>
