@@ -8,7 +8,8 @@ const Footer = () => (
   <footer className="footer">
     <Container>
       <p><a href="mailto:carl.enlund@gmail.com">Contact</a></p>
-      <p><a href="https://github.com/outyard">GitHub</a></p>
+      <br/>
+      <p><a href="https://github.com/outyard">Outyard on GitHub &#x2197;</a></p>
     </Container>
   </footer>
 );

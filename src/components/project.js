@@ -13,10 +13,10 @@ const Project = ({title, author, image, github, files, children}) => {
       {(files || github) &&
         <div class="project-buttons">
           {files &&
-            <a className="button project-button" href={files} target="_blank">Download &#x1f853;</a>
+            <a className="button project-button" href={files} target="_blank">Download &#x2193;</a>
           }
           {github &&
-            <a className="button project-button" href={github} target="_blank">GitHub repository &#x1f855;</a>
+            <a className="button project-button" href={github} target="_blank">GitHub repository &#x2197;</a>
           }
         </div>
       }
