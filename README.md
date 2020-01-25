@@ -6,6 +6,6 @@ Built with [Gatsby](https://www.gatsbyjs.org/).
 
 ## Development
 
-Start local server with `npm start`.
+Start local server with `npm start`
 
-Deploy to GitHub pages with `npm run deploy`.
+Deploy to GitHub pages with `npm run deploy`
