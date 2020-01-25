@@ -2,7 +2,7 @@ import React from 'react';
 
 import './project.scss';
 
-const Project = ({title, author, image, github, files, children}) => {
+const Project = ({title, author, image, video, github, files, children}) => {
   // TODO: Import image using GraphQL.
   return (
     <div className="project">
@@ -10,8 +10,13 @@ const Project = ({title, author, image, github, files, children}) => {
       {image &&
         <img className="project-image" src={image} alt="" />
       }
+      {video &&
+        <video className="project-video" autoPlay={true} loop={true}>
+          <source src={video} type="video/mp4" />
+        </video>
+      }
       {(files || github) &&
-        <div class="project-buttons">
+        <div className="project-buttons">
           {files &&
             <a className="button project-button" href={files} target="_blank">Download &#x2193;</a>
           }

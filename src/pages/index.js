@@ -16,6 +16,7 @@ const IndexPage = () => (
         title="Code with us at the next hackathon"
         start="17:00"
         end="00:00"
+        total="7"
         location="Uthgård"
         locationUrl="https://goo.gl/maps/y5K6Nvzf9Sxu8AiFA"
         isTeaser="true">
@@ -26,15 +27,17 @@ const IndexPage = () => (
         title="Make an online multiplayer game with mobile controls"
         start="17:00"
         end="00:00"
+        total="7"
         location="Uthgård"
         locationUrl="https://goo.gl/maps/y5K6Nvzf9Sxu8AiFA">
 
       <Project
-          title="Zombie shooter"
+          title="Zombie Invasion"
           author="Anton Bergåker"
           image=""
+          video="/videos/Zombie_Invasion.mp4"
           files=""
-          github="">
+          github="https://github.com/outyard/zombie-invasion">
         <p>A zombie shooting game where one player fights hordes of zombies strategically placed by a second player. The first player plays the game using an Xbox controller plugged into a PC, and the second player uses touch controls on a smartphone to place the zombies.</p>
         <p>Made with GameMaker Studio.</p>
       </Project>

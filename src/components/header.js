@@ -7,9 +7,9 @@ import './header.scss';
 const Header = () => (
   <header className="header">
     <Container>
-      <img class="header-logo" src="/images/logo-blue.svg" alt="Outyard" />
-      <div class="header-nav">
-        <p class="header-nav-item">Hackathon @ Uppsala University</p>
+      <img className="header-logo" src="/images/logo-blue.svg" alt="Outyard" />
+      <div className="header-nav">
+        <p className="header-nav-item">Hackathon @ Uppsala University</p>
       </div>
     </Container>
   </header>

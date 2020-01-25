@@ -4,11 +4,11 @@ import Container from './container';
 
 import './hackathon.scss';
 
-const Hackathon = ({id, date, title, start, end, location, locationUrl, isTeaser, children}) => (
+const Hackathon = ({id, date, title, start, end, total, location, locationUrl, isTeaser, children}) => (
   <div className={'hackathon ' + (isTeaser ? 'hackathon-teaser' : '')}>
     <Container>
       <div className="hackathon-meta">
-        <span className="hackathon-id">{date} <span class="nowrap">{start}&ndash;{end}</span></span>{location && <>
+        <span className="hackathon-id">{date} <span className="nowrap">{start}&ndash;{end} ({total} h)</span></span>{location && <>
           , <span className="hackathon-location"><a href={locationUrl} target="_blank">{location}</a></span>
         </>}
       </div>
