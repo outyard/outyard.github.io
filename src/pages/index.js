@@ -60,7 +60,7 @@ const IndexPage = () => (
           files=""
           github="">
         <p>In this game you jump on platforms falling down from the sky, trying not to get crushed.</p>
-        <p>Made with NodeJS and Socket.IO.js.</p>
+        <p>Made with NodeJS and Socket.IO.</p>
       </Project>
 
       <Project
@@ -70,7 +70,7 @@ const IndexPage = () => (
           files=""
           github="">
         <p>This is the most frustrating game you will ever play. Every move you make is delayed by half a second, while you stressfully try to navigate through an otherwise simple map. The game is played on desktop using a smartphone as a controller.</p>
-        <p>Made with NodeJS and Socket.IO.js.</p>
+        <p>Made with NodeJS and Socket.IO.</p>
       </Project>
 
     </Hackathon>
