@@ -12,7 +12,7 @@ const IndexPage = () => (
     <SEO title="Outyard - Hackathon @ Uppsala University" />
 
     <Hackathon
-        date="2020-02-21"
+        date="???"
         title="Code with us at the next hackathon"
         start="17:00"
         end="00:00"
