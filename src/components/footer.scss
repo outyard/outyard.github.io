@@ -1,11 +1,15 @@
 @import 'layout';
 
 .footer {
-  background: #fff;
-  color: #000;
+  border-top: 1px solid $color-inverted;
   padding: 40px 0 110px;
 
   p + p {
     margin-top: 15px;
+  }
+
+  a {
+    color: $color-inverted;
+    font-weight: 700;
   }
 }

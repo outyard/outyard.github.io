@@ -13,7 +13,7 @@ const IndexPage = () => (
 
     <Hackathon
         date="???"
-        title="Code with us at the next hackathon!"
+        title="Code with us at Uthgård!"
         start="17:00"
         end="00:00"
         total="7"

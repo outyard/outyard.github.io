@@ -7,7 +7,7 @@ import './header.scss';
 const Header = () => (
   <header className="header">
     <Container>
-      <img className="header-logo" src="/images/logo-blue.svg" alt="Outyard" />
+      <a className="header-logo-link" href="/"><img className="header-logo" src="/images/logo-blue.svg" alt="Outyard" /></a>
       <div className="header-nav">
         <p className="header-nav-item">Hackathon @ Uppsala University</p>
       </div>

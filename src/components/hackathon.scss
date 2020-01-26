@@ -4,17 +4,23 @@
   margin: 70px 0;
 
   & + & {
-    margin-top: 100px;
+    margin-top: 140px;
   }
 
   &-meta {
+    color: #888;
     font-size: 20px;
     font-weight: 700;
     line-height: 1.3;
+    margin-bottom: 1px;
 
     a {
       color: inherit;
     }
+  }
+
+  &-teaser &-meta {
+    color: $color-inverted;
   }
 
   &-date {
@@ -30,6 +36,7 @@
 
   &-title {
     font-size: 60px;
+    font-style: italic;
     font-weight: 700;
     line-height: 60px;
     letter-spacing: -.02em;
@@ -40,17 +47,21 @@
     }
   }
 
+  &-image {
+    display: block;
+    margin: 50px 0 0;
+    width: 100%;
+  }
+
+  &-text {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 1.3;
+    margin-top: 50px;
+  }
+
   &-projects {
     margin-top: 70px;
-  }
-
-  &-teaser {
-    color: $color-warning;
-  }
-
-  &-teaser & {
-    &-title {
-      font-style: italic;
-    }
   }
 }
