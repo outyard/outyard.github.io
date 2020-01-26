@@ -29,7 +29,6 @@
   }
 
   &-title {
-    font-style: italic;
     font-size: 60px;
     font-weight: 700;
     line-height: 60px;
@@ -51,7 +50,7 @@
 
   &-teaser & {
     &-title {
-      font-style: normal;
+      font-style: italic;
     }
   }
 }
