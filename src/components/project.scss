@@ -26,8 +26,11 @@
     margin: 15px 0;
   }
 
-  &-button + &-button {
+  &-button {
     display: block;
+  }
+
+  &-button + &-button {
     margin-top: 15px;
   }
 

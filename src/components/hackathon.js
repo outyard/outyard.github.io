@@ -17,7 +17,7 @@ const Hackathon = ({id, date, title, start, end, total, location, locationUrl, i
       <h1 className="hackathon-title">{title}</h1>
 
       {isTeaser && <>
-        <p className="hackathon-text">What can you make in {total} hours? Bring your laptop and some snacks and join us at <a href={locationUrl} target="_blank">{location}</a>. Build something awesome and get inspired by the creations of others.</p>
+        <p className="hackathon-text">What can you make in {total} hours? Bring a laptop and some snacks and join us at <a href={locationUrl} target="_blank">{location}</a>. Build something awesome and get inspired by the creations of others.</p>
       </>}
 
       {children && 
