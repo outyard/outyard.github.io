@@ -425,9 +425,9 @@
      inkscape:window-height="2066"
      id="namedview817"
      showgrid="false"
-     inkscape:zoom="0.62168759"
-     inkscape:cx="635.92939"
-     inkscape:cy="-467.38803"
+     inkscape:zoom="0.87919902"
+     inkscape:cx="529.60976"
+     inkscape:cy="61.376055"
      inkscape:window-x="-11"
      inkscape:window-y="-11"
      inkscape:window-maximized="1"
@@ -464,15 +464,15 @@
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="Layer 1"
-     transform="translate(-1412.2849)"
-     style="display:inline" />
+     style="display:inline"
+     transform="translate(-1412.2849)" />
   <g
      inkscape:groupmode="layer"
      id="layer2"
      inkscape:label="Layer 2"
      style="display:inline;filter:url(#filter2629)">
     <rect
-       style="opacity:1;fill:#3f5eff;fill-opacity:1;stroke:none;stroke-width:14;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
+       style="opacity:1;fill:#2750ff;fill-opacity:1;stroke:none;stroke-width:14;stroke-miterlimit:4;stroke-dasharray:none;enable-background:new"
        id="rect2605"
        width="1275"
        height="717"

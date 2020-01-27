@@ -15,7 +15,8 @@
   }
 
   &-nav {
-    color: $color-inverted;
+    color: $color;
+    opacity: .9;
     font-weight: 700;
     letter-spacing: .02em;
     margin-top: 20px;

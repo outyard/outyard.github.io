@@ -7,7 +7,7 @@
     color: #888;
     font-size: 20px;
     font-weight: 700;
-    line-height: 1.3;
+    line-height: 1.35;
     margin-bottom: 1px;
 
     a {
@@ -55,5 +55,17 @@
 
   &-projects {
     margin-top: 70px;
+  }
+
+  &-teaser {
+    background-image: url(/images/sketch.png);
+    background-size: cover;
+    margin-top: 0;
+    margin-bottom: 70px;
+    padding: 70px 0;
+  }
+
+  &-teaser &-meta {
+    color: #fff;
   }
 }

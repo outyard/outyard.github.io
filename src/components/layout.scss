@@ -1,5 +1,5 @@
 $color: #2b46ff;
-$color-inverted: #086bff;
+$color-inverted: #456dff;
 $color-warning: #ffd610;
 
 body {
@@ -16,4 +16,8 @@ a {
 
 .nowrap {
   white-space: nowrap;
+}
+
+.emoji {
+  font-style: normal;
 }

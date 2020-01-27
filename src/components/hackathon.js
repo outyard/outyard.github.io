@@ -17,8 +17,7 @@ const Hackathon = ({id, date, title, start, end, total, location, locationUrl, i
       <h1 className="hackathon-title">{title}</h1>
 
       {isTeaser && <>
-          <img className="hackathon-image" src={'/images/sketch.png'} alt={'App sketch'} />
-        <p className="hackathon-text">What can you make in {total} hours? Bring your laptop and some snacks and join us at <a href={locationUrl} target="_blank">{location}</a>.</p>
+        <p className="hackathon-text">What can you make in {total} hours? Bring your laptop and some snacks and join us at <a href={locationUrl} target="_blank">{location}</a>. Build something awesome and get inspired by the creations of others.</p>
       </>}
 
       {children && 
