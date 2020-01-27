@@ -64,12 +64,12 @@ const IndexPage = () => (
       </Project>
 
       <Project
-          title="Sidescroller with delayed input"
+          title="Maze Delay"
           author="Arvid Sandin"
-          image=""
+          image="/images/Maze_Delay.png"
           files=""
-          github="">
-        <p>This is the most frustrating game you will ever play. Every move you make is delayed by half a second, while you stressfully try to navigate through an otherwise simple map. The game is played on desktop using a smartphone as a controller.</p>
+          github="https://github.com/outyard/maze-delay">
+        <p>A top-down maze game with a twist... Every move you make is delayed by half a second, and touching the walls equals losing. The game is played on desktop using a smartphone as a controller as you stressfully try to navigate through an otherwise simple map.</p>
         <p>Made with NodeJS and Socket.IO.</p>
       </Project>
 
