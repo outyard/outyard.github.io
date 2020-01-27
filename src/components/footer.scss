@@ -1,7 +1,7 @@
 @import 'layout';
 
 .footer {
-  border-top: 1px solid $color-inverted;
+  border-top: 2px solid $color-inverted;
   padding: 40px 0 140px;
 
   p + p {
@@ -9,7 +9,7 @@
   }
 
   a {
-    color: $color-inverted;
+    color: #fff;
     font-weight: 700;
   }
 }
