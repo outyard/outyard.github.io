@@ -7,8 +7,10 @@ import './footer.scss';
 const Footer = () => (
   <footer className="footer">
     <Container>
-      <p><a href="mailto:carl.enlund@gmail.com">Contact</a></p>
-      <p><a href="https://github.com/outyard" target="_blank">Outyard on GitHub &#x2197;</a></p>
+      <div className="footer-content">
+        <p><a href="mailto:carl.enlund@gmail.com">Contact</a></p>
+        <p><a href="https://github.com/outyard" target="_blank">Outyard on GitHub &#x2197;</a></p>
+      </div>
     </Container>
   </footer>
 );

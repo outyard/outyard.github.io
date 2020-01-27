@@ -1,11 +1,7 @@
 @import 'layout';
 
 .hackathon {
-  margin: 70px 0;
-
-  & + & {
-    margin-top: 140px;
-  }
+  margin: 70px 0 140px;
 
   &-meta {
     color: #888;
@@ -18,10 +14,6 @@
       color: inherit;
     }
   }
-
-  // &-teaser &-meta {
-  //   color: $color-inverted;
-  // }
 
   &-date {
   }
