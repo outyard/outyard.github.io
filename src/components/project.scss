@@ -2,7 +2,7 @@
 
 .project {
   &-title {
-    color: $color-inverted;
+    color: #ffa63b;
     font-size: 30px;
     font-style: italic;
     font-weight: 700;
@@ -27,6 +27,8 @@
   }
 
   &-button {
+    color: #ffa63b;
+    font-weight: 700;
     display: block;
   }
 

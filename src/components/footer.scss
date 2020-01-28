@@ -1,7 +1,7 @@
 @import 'layout';
 
 .footer {
-  border-top: 2px solid #fff;
+  border-top: 2px solid #ffa63b;
   padding: 40px 0 140px;
 
   p + p {
@@ -9,6 +9,13 @@
   }
 
   a {
-    color: #fff;
+    color: #ffa63b;
+    font-weight: 700;
+  }
+
+  .footer-logo {
+    display: block;
+    margin-bottom: 40px;
+    max-width: 100px;
   }
 }

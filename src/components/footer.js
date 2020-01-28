@@ -7,7 +7,8 @@ import './footer.scss';
 const Footer = () => (
   <footer className="footer">
     <Container>
-      <div className="footer-content">
+      <img className="footer-logo" src="/images/logo-yellow.svg" alt="" />
+      <div class="footer-links">
         <p><a href="mailto:carl.enlund@gmail.com">Contact</a></p>
         <p><a href="https://github.com/outyard" target="_blank">Outyard on GitHub &#x2197;</a></p>
       </div>
