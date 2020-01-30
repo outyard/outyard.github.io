@@ -4,7 +4,7 @@ import Container from './container';
 
 import './hackathon.scss';
 
-const Hackathon = ({id, date, title, start, end, total, location, locationUrl, isTeaser, children}) => (
+const Hackathon = ({id, date, title, text, start, end, total, location, locationUrl, isTeaser, children}) => (
   <div className={'hackathon ' + (isTeaser ? 'hackathon-teaser' : '')}>
     <Container>
       <div className="hackathon-meta">
@@ -16,9 +16,9 @@ const Hackathon = ({id, date, title, start, end, total, location, locationUrl, i
       </div>
       <h1 className="hackathon-title">{title}</h1>
 
-      {isTeaser && <>
-        <p className="hackathon-text">What can you make in {total} hours? Bring a laptop and some snacks and join us at <a href={locationUrl} target="_blank">{location}</a>. Build something awesome and get inspired by the creations of others.</p>
-      </>}
+      {text &&
+        <p className="hackathon-text">{text}</p>
+      }
 
       {children && 
         <div className="hackathon-projects">
