@@ -11,16 +11,50 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Outyard - Hackathon @ Uppsala University" />
 
+    {/*}
     <Hackathon
-        date="2020-02-28"
+        date="???"
         title="Code with us at Uthgård!"
         text="What can you make in 7 hours? Bring a laptop and some snacks and join us at Uthgård (2nd floor). Build something awesome and get inspired by the creations of others."
+        start="???"
+        end="???"
+        total="???"
+        location="Uthgård"
+        locationUrl="https://goo.gl/maps/y5K6Nvzf9Sxu8AiFA"
+        isTeaser="true">
+    </Hackathon>
+    {*/}
+
+    <Hackathon
+        date="2020-02-28"
+        title="Make a game with a customizable character"
         start="17:00"
         end="00:00"
         total="7"
         location="Uthgård"
-        locationUrl="https://goo.gl/maps/y5K6Nvzf9Sxu8AiFA"
-        isTeaser="true">
+        locationUrl="https://goo.gl/maps/y5K6Nvzf9Sxu8AiFA">
+
+      <Project
+          title="Car"
+          author="Carl Enlund"
+          image="/images/Car.png"
+          files=""
+          site="https://outyard.github.io/car/"
+          github="https://github.com/outyard/car">
+        <p>A game where you customize a flying car and try to beat a map filled with colorful balloons. The catch is that everything drains energy from the car, so you better hurry! You can customize the car by choosing the gun and thruster to use through a simple menu.</p>
+        <p>Made with JavaScript.</p>
+      </Project>
+
+      <Project
+          title="Rock"
+          author="Anton Bergåker"
+          image=""
+          files=""
+          github="">
+        <p></p>
+        <p>Made with GameMaker Studio.</p>
+      </Project>
+
     </Hackathon>
 
     <Hackathon
@@ -55,7 +89,7 @@ const IndexPage = () => (
       </Project>
 
       <Project
-          title="Platform jumping game"
+          title="Platform jumper"
           author="Peter Öhlmér"
           image=""
           files=""
