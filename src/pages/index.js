@@ -46,12 +46,12 @@ const IndexPage = () => (
       </Project>
 
       <Project
-          title="Rock"
+          title="Petrock Simulator"
           author="Anton Bergåker"
           image=""
           files=""
-          github="">
-        <p>Design your own personal rock to strategically beat this physics-based sidescroller. The game is literally rock and roll.</p>
+          github="https://github.com/outyard/Petrock-Simulator">
+        <p>Design your own personal petrock to strategically beat this physics-based sidescroller. The game is literally rock and roll.</p>
         <p>Made with GameMaker Studio.</p>
       </Project>
 
