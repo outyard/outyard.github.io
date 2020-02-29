@@ -51,7 +51,7 @@ const IndexPage = () => (
           image=""
           files=""
           github="">
-        <p></p>
+        <p>Design your own personal rock to strategically beat this physics-based sidescroller. The game is literally rock and roll.</p>
         <p>Made with GameMaker Studio.</p>
       </Project>
 
