@@ -39,7 +39,7 @@ const IndexPage = () => (
           files=""
           site="https://outyard.github.io/car/"
           github="https://github.com/outyard/car">
-        <p>A game where you customize a flying car and try to beat a map filled with colorful balloons. The catch is that everything drains energy from the car, so you better hurry! You can choose which gun and thruster to use through a simple menu.</p>
+        <p>A game where you customize a flying car and try to beat a map filled with colorful balloons. The catch is that everything you do drains energy from the car, so you better hurry! You can choose which gun and thruster to use through a simple menu.</p>
         <p>Made with JavaScript.</p>
       </Project>
 
