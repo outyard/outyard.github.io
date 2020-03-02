@@ -25,7 +25,7 @@ const IndexPage = () => (
 
     <Hackathon
         date="2020-02-28"
-        title="Make a game with character customization"
+        title="Make a game with a customizable character"
         start="17:00"
         end="00:00"
         total="7"
