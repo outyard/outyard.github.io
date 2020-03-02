@@ -21,7 +21,7 @@ const Hackathon = ({id, date, title, text, start, end, total, location, location
       }
 
       {isTeaser &&
-        <p className="hackathon-text"><a href="https://www.facebook.com/outyardhackathon" target="_blank">Follow us on Facebook</a> to get future updates.</p>
+        <p className="hackathon-text"><a href="https://www.facebook.com/outyardhackathon" target="_blank">Follow us on Facebook</a> for future updates</p>
       }
 
       {children && 
