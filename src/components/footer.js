@@ -9,7 +9,7 @@ const Footer = () => (
     <Container>
       <img className="footer-logo" src="/images/logo-yellow.svg" alt="" />
       <div class="footer-text">
-        <p>Outyard is an independently organized hackathon at Uppsala University. It is meant to inspire personal programming projects and is a great way to learn and work under intense deadlines.</p>
+        <p>Outyard is an independently organized hackathon at Uppsala University. The event is meant to inspire personal programming projects and is a great way to learn development and working under deadlines.</p>
       </div>
       <div className="footer-links">
         <p><a href="mailto:carl.enlund@gmail.com">Contact</a></p>
