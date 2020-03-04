@@ -46,7 +46,7 @@ const IndexPage = () => (
       <Project
           title="Petrock Simulator"
           author="Anton Bergåker"
-          image=""
+          video="/videos/Petrock_Simulator.mp4"
           files=""
           github="https://github.com/outyard/Petrock-Simulator">
         <p>Design your own personal petrock to strategically beat this physics-based sidescroller. The game is literally rock and roll.</p>
