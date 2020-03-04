@@ -18,13 +18,13 @@ const Project = ({title, author, image, video, site, github, files, children}) =
       {(files || github || site) &&
         <div className="project-buttons">
           {site &&
-            <a className="button project-button" href={site} target="_blank">Try the app in your browser &#x2197;</a>
+            <a className="button project-button" href={site} target="_blank">Try the app in your browser</a>
           }
           {files &&
-            <a className="button project-button" href={files} target="_blank">Download &#x2193;</a>
+            <a className="button project-button" href={files} target="_blank">Download</a>
           }
           {github &&
-            <a className="button project-button" href={github} target="_blank">GitHub repository &#x2197;</a>
+            <a className="button project-button" href={github} target="_blank">GitHub repository</a>
           }
         </div>
       }
