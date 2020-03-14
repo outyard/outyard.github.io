@@ -101,6 +101,7 @@ const IndexPage = () => (
           author="Arvid Sandin"
           image="/images/Maze_Delay.png"
           files=""
+          site="https://outyard.github.io/maze-delay/"
           github="https://github.com/outyard/maze-delay">
         <p>A top-down maze game with a twist... Every move you make is delayed by half a second, and touching the walls equals losing. The game is played on desktop using a smartphone as a controller as you stressfully try to navigate through an otherwise simple map.</p>
         <p>Made with NodeJS and Socket.IO.</p>
