@@ -13,13 +13,13 @@ const IndexPage = () => (
 
     <Hackathon
         date="2020-03-28"
-        title="Code with us at Uthgård!"
-        text="What can you make in 7 hours? Bring a laptop and some snacks and join us at Uthgård (2nd floor). Build something awesome and get inspired by the creations of others."
+        title="Code with us at home!"
+        text="What can you make in 7 hours? Join us on Discord with your programming language of choice. Build something awesome and get inspired by the creations of others."
         start="17:00"
         end="00:00"
         total="7"
-        location="Uthgård"
-        locationUrl="https://goo.gl/maps/y5K6Nvzf9Sxu8AiFA"
+        location="Home"
+        locationUrl="#"
         isTeaser="true">
     </Hackathon>
 
