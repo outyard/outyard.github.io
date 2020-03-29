@@ -14,7 +14,7 @@ const IndexPage = () => (
     <Hackathon
         id="#004"
         date="2020-04-25"
-        title="September Hackathon"
+        title="April Hackathon"
         text="What can you make in only 7 hours? Join us on Discord, build something awesome and get inspired by the creations of others."
         start="17:00"
         end="00:00"
