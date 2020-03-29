@@ -67,9 +67,11 @@
   }
 
   &-button {
-    background: #000;
-    border-radius: .2em;
-    color: #fff;
+    background: #fff;
+    border: 3px solid #000;
+    border-bottom-width: 5px;
+    border-radius: 6px;
+    color: #000;
     display: inline-block;
     font-size: 20px;
     font-style: normal;
@@ -79,8 +81,8 @@
     text-decoration: none;
 
     &:hover {
-      background: #fff;
-      color: #000;
+      background: #000;
+      color: #fff;
     }
 
     @media (max-width: 800px) {
