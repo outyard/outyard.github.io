@@ -5,6 +5,10 @@
   color: #000;
   padding: 80px 0;
 
+  @media (max-width: 800px) {
+    padding: 70px 0;
+  }
+
   &-logo-link {
     display: block;
   }
@@ -26,5 +30,12 @@
 
   &-nav-item {
     display: inline-block;
+  }
+
+  &-wrapper {
+    @media (max-width: 800px) {
+      margin: 0 auto;
+      max-width: 80%;
+    }
   }
 }
