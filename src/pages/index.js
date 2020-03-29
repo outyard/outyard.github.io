@@ -50,7 +50,7 @@ const IndexPage = () => (
           files=""
           site=""
           github="">
-        <p>Apparently we're not safe from the disease anywhere, not even in space. Inspired by the arcade classic Asteroids, in this game you control a spaceship in order to destroy all incoming projectiles.</p>
+        <p>Apparently we're not safe from the disease anywhere, not even in space. Inspired by the arcade classic Asteroids, in the game you control a spaceship in order to destroy all incoming projectiles.</p>
         <p>Made with JavaScript and Three.js.</p>
       </Project>
 
