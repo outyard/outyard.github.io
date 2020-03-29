@@ -16,11 +16,12 @@
    height="717"
    viewBox="0 0 1275 717"
    sodipodi:docname="sketch.svg"
-   inkscape:export-filename="C:\Users\Carl\Documents\outyard.github.io\static\images\sketch.png"
+   inkscape:export-filename="C:\Users\Admin\Documents\outyard.github.io\static\images\sketch-code.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
-   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   style="enable-background:new">
+   inkscape:version="0.92.3 (2405546, 2018-03-11)"
+   style="enable-background:new"
+   enable-background="new">
   <metadata
      id="metadata821">
     <rdf:RDF>
@@ -411,6 +412,16 @@
          values="0.52 0.53 0 0 0 0.52 0.53 0 0 0 0.52 0.53 0 0 0 0 0 0 1 0 "
          in="fbSourceGraphic" />
     </filter>
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter2403">
+      <feBlend
+         inkscape:collect="always"
+         mode="screen"
+         in2="BackgroundImage"
+         id="feBlend2405" />
+    </filter>
   </defs>
   <sodipodi:namedview
      pagecolor="#ffffff"
@@ -421,17 +432,17 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="3840"
-     inkscape:window-height="2066"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
      id="namedview817"
      showgrid="false"
-     inkscape:zoom="0.87919902"
-     inkscape:cx="529.60976"
-     inkscape:cy="61.376055"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
+     inkscape:zoom="0.62168759"
+     inkscape:cx="547.77534"
+     inkscape:cy="292.32374"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer2"
+     inkscape:current-layer="layer3"
      inkscape:snap-page="true"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
@@ -479,6 +490,11 @@
        x="0"
        y="0" />
   </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Layer 3"
+     style="filter:url(#filter2403)" />
   <image
      clip-path="url(#clipPath838-9)"
      style="opacity:1;filter:url(#filter2415-3);enable-background:new"

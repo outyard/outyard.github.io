@@ -2,9 +2,9 @@ import React from 'react';
 
 import './container.scss';
 
-const Container = ({children}) => {
+const Container = ({wide, children}) => {
   return (
-    <div className="container">{children}</div>
+    <div className={'container ' + (wide ? 'container--wide' : '')}>{children}</div>
   );
 };
 

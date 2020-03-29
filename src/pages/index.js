@@ -9,28 +9,26 @@ import '../styles/reset.scss';
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Outyard - Hackathon @ Uppsala University" />
+    <SEO title="Outyard - Hackathon at Uppsala University" />
 
     <Hackathon
+        id="#004"
         date="2020-04-25"
-        title="Outyard Hackathon #4"
-        text="What will you make in 7 hours? Join us on Discord with your programming language of choice. Build something awesome and get inspired by the creations of others."
+        title="April Hackathon"
+        text="What can you make in only 7 hours? Join us on Discord with your programming language of choice. Build something awesome and get inspired by the creations of others."
         start="17:00"
         end="00:00"
         total="7"
-        location="Discord"
-        locationUrl="https://discord.gg/WeTRnTc"
         isTeaser="true">
     </Hackathon>
 
     <Hackathon
+        id="#003"
         date="2020-03-28"
-        title="Make a game about the Coronavirus disease"
+        title="Make a game about the coronavirus disease"
         start="17:00"
         end="00:00"
-        total="7"
-        location="Discord"
-        locationUrl="https://discord.gg/WeTRnTc">
+      total="7">
 
       <Project
           title="Vibus"
@@ -50,7 +48,7 @@ const IndexPage = () => (
           files=""
           site=""
           github="">
-        <p>Apparently we're not safe from the disease anywhere, not even in space. Inspired by the arcade classic Asteroids, in the game you control a spaceship in order to destroy all incoming projectiles.</p>
+        <p>We're apparently not safe from the disease anywhere, not even in space. Inspired by the arcade classic Asteroids, you control a spaceship in order to destroy all incoming projectiles.</p>
         <p>Made with JavaScript and Three.js.</p>
       </Project>
 
@@ -61,7 +59,7 @@ const IndexPage = () => (
           files=""
           site="https://outyard.github.io/hand/"
           github="https://github.com/outyard/hand">
-        <p>Practice social distancing in this webcam-based dodge-the-bullets game. If you accumulate too many virus particles, the game is over. Hand tracking is used to locate the player's hand through the webcam feed, making this game a (mostly) wireless experience.</p>
+        <p>Practice social distancing in this webcam-based dodge-the-bullets game. If you accumulate too many virus particles, the game is over. Hand tracking is used to locate the player's hand through the webcam feed, making the game a (mostly) wireless experience.</p>
         <p>Made with JavaScript and Handtrack.js.</p>
       </Project>
 
@@ -82,13 +80,14 @@ const IndexPage = () => (
           files=""
           site="https://www.nils-lorentzon.com/Outyard/"
           github="https://github.com/NilsLorentzon/Outyard1">
-        <p>A browser gimmick used for good, this game makes you move a pop-up browser window to quickly locate and eliminate the disease. When you've acquired a target through the sniper scope, click it with your mouse. Only 40% of people can beat this game before the time runs out.</p>
+        <p>A browser gimmick used for good, this game makes you move a pop-up browser window to quickly locate and eliminate the disease. When you've acquired a target through the sniper scope, click it with your mouse. Only 40% of people can beat the game before the time runs out.</p>
         <p>Made with JavaScript.</p>
       </Project>
 
     </Hackathon>
 
     <Hackathon
+        id="#002"
         date="2020-02-28"
         title="Make a game with a customizable character"
         start="17:00"
@@ -121,6 +120,7 @@ const IndexPage = () => (
     </Hackathon>
 
     <Hackathon
+        id="#001"
         date="2020-01-24"
         title="Make an online multiplayer game with mobile controls"
         start="17:00"

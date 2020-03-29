@@ -1,17 +1,25 @@
 @import 'layout';
 
 .footer {
-  border-top: 1.5px solid #ffa63b;
-  padding: 40px 0 140px;
+  color: #ffa63b;
+  background: #fff;
+  color: #000;
+  padding: 42px 0 150px;
 
-  .footer-logo {
-    display: block;
-    margin-bottom: 40px;
-    max-width: 100px;
+  &-wrapper {
   }
 
-  .footer-text {
-    color: #ffa63b;
+  &-logo {
+    display: block;
+    margin-bottom: 40px;
+    width: 130px;
+
+    @media (max-width: 800px) {
+      width: 90px;
+    }
+  }
+
+  &-text {
     font-style: italic;
     margin-bottom: 40px;
     max-width: 380px;
@@ -22,7 +30,7 @@
   }
 
   a {
-    color: #ffa63b;
+    color: inherit;
     font-weight: 700;
   }
 }

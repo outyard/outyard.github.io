@@ -6,14 +6,15 @@ import './hackathon.scss';
 
 const Hackathon = ({id, date, title, text, start, end, total, location, locationUrl, isTeaser, children}) => (
   <div className={'hackathon ' + (isTeaser ? 'hackathon-teaser' : '')}>
-    <Container>
+    <Container wide={isTeaser}>
       <div className="hackathon-meta">
-        {date && <>
-          <span className="hackathon-date">{date} <span className="nowrap">{start}&ndash;{end} ({total} h)</span></span>{location && <>
-            , <span className="hackathon-location"><a href={locationUrl} target="_blank">{location}</a></span>
+        {id}&ensp;{date && <>
+          <span className="hackathon-date">{date}&ensp;<span className="nowrap">{start}-{end} ({total} h)</span></span>{location && <>
+            &ensp;<span className="hackathon-location"><a href={locationUrl} target="_blank">{location}</a></span>
           </>}
         </>}
       </div>
+
       <h1 className="hackathon-title">{title}</h1>
 
       {text &&
@@ -21,8 +22,7 @@ const Hackathon = ({id, date, title, text, start, end, total, location, location
       }
 
       {isTeaser && <div className="hackathon-buttons">
-        <p className="hackathon-text"><a className="hackathon-button" href="https://discord.gg/WeTRnTc" target="_blank">Join the Discord server</a></p>
-        <p className="hackathon-text"><a className="hackathon-button" href="https://www.facebook.com/outyardhackathon" target="_blank">Stay updated on Facebook</a></p>
+        <p className="hackathon-text"><a className="hackathon-button" href="https://discord.gg/WeTRnTc" target="_blank">Join Discord server</a></p>
       </div>}
 
       {children && 
