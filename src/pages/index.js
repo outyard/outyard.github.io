@@ -61,7 +61,7 @@ const IndexPage = () => (
           files=""
           site="https://outyard.github.io/hand/"
           github="https://github.com/outyard/hand">
-        <p>Practice social distancing in this webcam-based dodge-the-bullets game. If you accumulate to many virus particles, the game is over. Hand tracking is used to locate the player's hand through the webcam feed, making this game a (mostly) wireless experience.</p>
+        <p>Practice social distancing in this webcam-based dodge-the-bullets game. If you accumulate too many virus particles, the game is over. Hand tracking is used to locate the player's hand through the webcam feed, making this game a (mostly) wireless experience.</p>
         <p>Made with JavaScript and Handtrack.js.</p>
       </Project>
 
@@ -82,7 +82,7 @@ const IndexPage = () => (
           files=""
           site="https://www.nils-lorentzon.com/Outyard/"
           github="https://github.com/NilsLorentzon/Outyard1">
-        <p>A browser gimmick used for good, this game makes you move a pop-up browser window to quickly locate and eliminate the disease. When you've acquired a target through the sniper scope, click it with your mouse. Only 20% of people can beat this game before the time runs out.</p>
+        <p>A browser gimmick used for good, this game makes you move a pop-up browser window to quickly locate and eliminate the disease. When you've acquired a target through the sniper scope, click it with your mouse. Only 40% of people can beat this game before the time runs out.</p>
         <p>Made with JavaScript.</p>
       </Project>
 
