@@ -101,7 +101,7 @@
     color: #fff;
     margin-top: 0;
     margin-bottom: 70px;
-    padding: 105px 0;
+    padding: 70px 0;
 
     @media (max-width: 800px) {
       padding: 70px 0;
@@ -115,16 +115,6 @@
 
     &-title {
       color: inherit;
-      font-size: 120px;
-      line-height: .95;
-
-      @media (max-width: 800px) {
-        font-size: 80px;
-      }
-
-      @media (max-width: 500px) {
-        font-size: 16vw;
-      }
     }
 
     &-text {
