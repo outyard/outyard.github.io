@@ -9,9 +9,7 @@ const Hackathon = ({id, date, title, text, start, end, total, location, location
     <Container wide={isTeaser}>
       <div className="hackathon-meta">
         {id}&ensp;{date && <>
-          <span className="hackathon-date">{date}&ensp;<span className="nowrap">{start}-{end} ({total} h)</span></span>{location && <>
-            &ensp;<span className="hackathon-location"><a href={locationUrl} target="_blank">{location}</a></span>
-          </>}
+          <span className="hackathon-date">{date}&ensp;<span className="nowrap">{start}-{end} ({total} h)</span></span>
         </>}
       </div>
 
