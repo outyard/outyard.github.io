@@ -19,8 +19,62 @@ const IndexPage = () => (
         end="00:00"
         total="7"
         location="Home"
-        locationUrl="#"
-        isTeaser="true">
+        locationUrl="#">
+
+      <Project
+          title="Vibus"
+          author="Anton Bergåker"
+          image="/images/Vibus.png"
+          files=""
+          site="https://anton.bergaker.com/vibus/"
+          github="https://github.com/outyard/vibus">
+        <p>Vibus.</p>
+        <p>Made with GameMaker Studio.</p>
+      </Project>
+
+      <Project
+          title="Corona in Space"
+          author="Albin Kroon"
+          image=""
+          files=""
+          site=""
+          github="">
+        <p>Corona in Space.</p>
+        <p>Made with JavaScript and Handtrack.js.</p>
+      </Project>
+
+      <Project
+          title="Hand"
+          author="Carl Enlund"
+          image="/images/Hand.png"
+          files=""
+          site="https://outyard.github.io/hand/"
+          github="https://github.com/outyard/hand">
+        <p>Hand.</p>
+        <p>Made with JavaScript and Handtrack.js.</p>
+      </Project>
+
+      <Project
+          title="Corona Shooter"
+          author="Jona Nygren"
+          image="/images/Corona_Shooter.png"
+          files=""
+          site="https://editor.p5js.org/full/BItscBW3m">
+        <p>Corona Shooter.</p>
+        <p>Made with JavaScript and p5.js.</p>
+      </Project>
+
+      <Project
+          title="Corona Sniper"
+          author="Nils Lorentzon"
+          image="/images/Corona_Sniper.png"
+          files=""
+          site="https://www.nils-lorentzon.com/Outyard/"
+          github="https://github.com/NilsLorentzon/Outyard1">
+        <p>Corona Sniper.</p>
+        <p>Made with JavaScript.</p>
+      </Project>
+
     </Hackathon>
 
     <Hackathon
