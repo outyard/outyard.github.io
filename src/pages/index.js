@@ -13,18 +13,18 @@ const IndexPage = () => (
 
     <Hackathon
         date="2020-03-28"
-        title="Code with us at home!"
-        text="What can you make in 7 hours? Join us on Discord with your programming language of choice. Build something awesome and get inspired by the creations of others."
+        title="Make a game about the Coronavirus disease"
+        text="In the light of current events, we decided that the theme for this month&rsquo;s Outyard would be about Corona."
         start="17:00"
         end="00:00"
         total="7"
-        location="Home"
-        locationUrl="#">
+        location="Discord"
+        locationUrl="https://discord.gg/WeTRnTc">
 
       <Project
           title="Vibus"
           author="Anton Bergåker"
-          image="/images/Vibus.png"
+          video="/videos/Vibus.mp4"
           files=""
           site="https://anton.bergaker.com/vibus/"
           github="https://github.com/outyard/vibus">
@@ -46,7 +46,7 @@ const IndexPage = () => (
       <Project
           title="Hand"
           author="Carl Enlund"
-          image="/images/Hand.png"
+          video="/videos/Hand.mp4"
           files=""
           site="https://outyard.github.io/hand/"
           github="https://github.com/outyard/hand">
@@ -56,8 +56,8 @@ const IndexPage = () => (
 
       <Project
           title="Corona Shooter"
-          author="Jona Nygren"
-          image="/images/Corona_Shooter.png"
+          author="Jonas Nygren"
+          image="/images/Corona_Shooter.jpg"
           files=""
           site="https://editor.p5js.org/full/BItscBW3m">
         <p>Corona Shooter.</p>
@@ -67,7 +67,7 @@ const IndexPage = () => (
       <Project
           title="Corona Sniper"
           author="Nils Lorentzon"
-          image="/images/Corona_Sniper.png"
+          video="/videos/Corona_Sniper.mp4"
           files=""
           site="https://www.nils-lorentzon.com/Outyard/"
           github="https://github.com/NilsLorentzon/Outyard1">
