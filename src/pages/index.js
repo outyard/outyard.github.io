@@ -39,7 +39,7 @@ const IndexPage = () => (
           files=""
           site="https://anton.bergaker.com/vibus/"
           github="https://github.com/outyard/vibus">
-        <p>Vibus.</p>
+        <p>Prevent the virus from spreading on the bus! You are a driver for UL and there's a pandemic. Use state of the art technology to keep the bus clean from infection.</p>
         <p>Made with GameMaker Studio.</p>
       </Project>
 
@@ -50,7 +50,7 @@ const IndexPage = () => (
           files=""
           site=""
           github="">
-        <p>Corona in Space.</p>
+        <p>Apparently we're not safe from the disease anywhere, not even in space. Inspired by the arcade classic Asteroids, in this game you control a spaceship in order to destroy all incoming projectiles.</p>
         <p>Made with JavaScript and Three.js.</p>
       </Project>
 
@@ -61,7 +61,7 @@ const IndexPage = () => (
           files=""
           site="https://outyard.github.io/hand/"
           github="https://github.com/outyard/hand">
-        <p>Hand.</p>
+        <p>Practice social distancing in this webcam-based dodge-the-bullets game. If you accumulate to many virus particles, the game is over. Hand tracking is used to locate the player's hand through the webcam feed, making this game a (mostly) wireless experience.</p>
         <p>Made with JavaScript and Handtrack.js.</p>
       </Project>
 
@@ -71,7 +71,7 @@ const IndexPage = () => (
           image="/images/Corona_Shooter.jpg"
           files=""
           site="https://editor.p5js.org/full/BItscBW3m">
-        <p>Corona Shooter.</p>
+        <p>Don't let the virus get to you! Jump, dash and shoot to survive as long as possible, avoiding the swarm of incoming virus particles. Pay special attention to the bottom of the screen, to avoid any nasty surprises.</p>
         <p>Made with JavaScript and p5.js.</p>
       </Project>
 
@@ -82,7 +82,7 @@ const IndexPage = () => (
           files=""
           site="https://www.nils-lorentzon.com/Outyard/"
           github="https://github.com/NilsLorentzon/Outyard1">
-        <p>Corona Sniper.</p>
+        <p>A browser gimmick used for good, this game makes you move a pop-up browser window to quickly locate and eliminate the disease. When you've acquired a target through the sniper scope, click it with your mouse. Only 20% of people can beat this game before the time runs out.</p>
         <p>Made with JavaScript.</p>
       </Project>
 
