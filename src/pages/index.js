@@ -12,9 +12,20 @@ const IndexPage = () => (
     <SEO title="Outyard - Hackathon @ Uppsala University" />
 
     <Hackathon
+        date="2020-04-25"
+        title="Outyard Hackathon #4"
+        text="What will you make in 7 hours? Join us on Discord with your programming language of choice. Build something awesome and get inspired by the creations of others."
+        start="17:00"
+        end="00:00"
+        total="7"
+        location="Discord"
+        locationUrl="https://discord.gg/WeTRnTc"
+        isTeaser="true">
+    </Hackathon>
+
+    <Hackathon
         date="2020-03-28"
         title="Make a game about the Coronavirus disease"
-        text="In the light of current events, we decided that the theme for this month&rsquo;s Outyard would be about Corona."
         start="17:00"
         end="00:00"
         total="7"
@@ -40,7 +51,7 @@ const IndexPage = () => (
           site=""
           github="">
         <p>Corona in Space.</p>
-        <p>Made with JavaScript and Handtrack.js.</p>
+        <p>Made with JavaScript and Three.js.</p>
       </Project>
 
       <Project

@@ -20,10 +20,10 @@ const Hackathon = ({id, date, title, text, start, end, total, location, location
         <p className="hackathon-text">{text}</p>
       }
 
-      {isTeaser && <>
-        <p className="hackathon-text"><a href="https://discord.gg/WeTRnTc" target="_blank">Join the Discord server</a></p>
-        <p className="hackathon-text"><a href="https://www.facebook.com/outyardhackathon" target="_blank">Follow on Facebook</a></p>
-      </>}
+      {isTeaser && <div className="hackathon-buttons">
+        <p className="hackathon-text"><a className="hackathon-button" href="https://discord.gg/WeTRnTc" target="_blank">Join the Discord server</a></p>
+        <p className="hackathon-text"><a className="hackathon-button" href="https://www.facebook.com/outyardhackathon" target="_blank">Stay updated on Facebook</a></p>
+      </div>}
 
       {children && 
         <div className="hackathon-projects">
