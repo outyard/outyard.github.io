@@ -28,7 +28,7 @@ const IndexPage = () => (
         title="Make a game about the coronavirus disease"
         start="17:00"
         end="00:00"
-      total="7">
+        total="7">
 
       <Project
           title="Vibus"
