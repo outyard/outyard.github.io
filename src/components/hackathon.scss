@@ -89,6 +89,12 @@
     }
   }
 
+  &-text {
+    @media (max-width: 800px) {
+      display: none;
+    }
+  }
+
   &-projects {
     margin-top: 70px;
   }
@@ -117,12 +123,6 @@
 
     &-text {
       max-width: 800px;
-    }
-
-    &-text {
-      @media (max-width: 800px) {
-        display: none;
-      }
     }
   }
 }

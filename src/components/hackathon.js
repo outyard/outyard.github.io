@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Container from './container';
+import Timer from './timer';
 
 import './hackathon.scss';
 
@@ -14,7 +15,17 @@ const Hackathon = ({id, date, title, text, start, end, total, location, location
       </div>
 
       <h1 className="hackathon-title">{title}</h1>
+    </Container>
 
+    {isTeaser &&
+      <div className="hackathon-timer">
+        <Container wide="true">
+          <Timer></Timer>
+        </Container>
+      </div>
+    }
+
+    <Container>
       {text &&
         <p className="hackathon-text">{text}</p>
       }
