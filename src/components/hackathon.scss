@@ -68,9 +68,7 @@
 
   &-button {
     background: #fff;
-    border: 3px solid #000;
-    border-bottom-width: 5px;
-    border-radius: 6px;
+    border-radius: 5px;
     color: #000;
     display: inline-block;
     font-size: 20px;
@@ -121,8 +119,10 @@
       max-width: 800px;
     }
 
-    &-text + &-text {
-      margin-top: 15px;
+    &-text {
+      @media (max-width: 800px) {
+        display: none;
+      }
     }
   }
 }

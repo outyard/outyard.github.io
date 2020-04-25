@@ -20,7 +20,7 @@ const Hackathon = ({id, date, title, text, start, end, total, location, location
       }
 
       {isTeaser && <div className="hackathon-buttons">
-        <p className="hackathon-text"><a className="hackathon-button" href="https://discord.gg/WeTRnTc" target="_blank">Join Discord server</a></p>
+        <a className="hackathon-button" href="https://discord.gg/WeTRnTc" target="_blank">Join Discord server</a>
       </div>}
 
       {children && 
