@@ -61,7 +61,7 @@ class Timer extends Component {
 
   render() {
     const {hours, minutes, seconds} = this.state;
-    let hidden = hours >= 7;
+    let hidden = false;
     let finished = hours === 0 && minutes === 0 && seconds === 0;
     let near = hours === 0 && minutes < 15;
 
