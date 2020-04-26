@@ -71,7 +71,7 @@ const IndexPage = () => (
       <Project
           title="Caffeine King"
           author="Anton Bergåker"
-          image="/images/Caffeine_King.png"
+          video="/videos/Caffeine_King.mp4"
           files=""
           site="https://anton.bergaker.com/caffeineking/">
         <p>The king needs to regulate his caffeine intake to be able to rule over his kingdom. Keep the king alive by expanding his army of workers to streamline his coffee bean harvesting process.</p>
