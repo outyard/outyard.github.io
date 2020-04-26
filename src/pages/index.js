@@ -86,7 +86,7 @@ const IndexPage = () => (
           video=""
           files=""
           site="">
-        <p>A fully custom game engine built from the ground up. Maybe there&rsquo;s an incoming platform game built on top of the engine.</p>
+        <p>A fully custom game engine built from the ground up. Maybe there&rsquo;s an upcoming platform game built on top of the engine.</p>
         <p>Made with C++ and OpenGL.</p>
       </Project>
 
