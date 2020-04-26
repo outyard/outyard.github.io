@@ -73,7 +73,8 @@ const IndexPage = () => (
           author="Anton Bergåker"
           video="/videos/Caffeine_King.mp4"
           files=""
-          site="https://anton.bergaker.com/caffeineking/">
+          site="https://anton.bergaker.com/caffeineking/"
+          github="https://github.com/AntonBergaker/CaffeineKing">
         <p>The king needs to regulate his caffeine intake to be able to rule over his kingdom. Keep the king alive by expanding his army of workers to streamline his coffee bean harvesting process.</p>
         <p>Made with GameMaker Studio.</p>
       </Project>
