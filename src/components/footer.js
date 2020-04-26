@@ -6,7 +6,7 @@ import './footer.scss';
 
 const Footer = () => (
   <footer className="footer">
-    <Container wide="true">
+    <Container>
       <div className="footer-wrapper">
         <img className="footer-logo" src="/images/logo-black.svg" alt="" />
         <div className="footer-links">
