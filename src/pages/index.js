@@ -33,22 +33,22 @@ const IndexPage = () => (
         total="7">
 
       <Project
+          title="Puzzle Solving Factory"
+          author="Jacob"
+          video="/videos/Puzzle_Solving_Factory.mp4"
+          files="/files/puzzle-solving-factory.zip">
+        <p>Why sleep when you can spend the night solving puzzles? Help the factory worker stay alert and survive through his tough working conditions by utilizing the classic &ldquo;arm shake strategy&rdquo;.</p>
+        <p>Made with GameMaker Studio.</p>
+      </Project>
+
+      <Project
           title="Sleep Quiz"
           author="Nils Lorentzon"
           image="/images/Sleep_Quiz.png"
           files=""
           site="https://www.nils-lorentzon.com/Outyard2/">
-        <p>Sleep quiz.</p>
-        <p>Made with JavaScript.</p>
-      </Project>
-
-      <Project
-          title="Puzzle Solving Factory"
-          author="Jacob"
-          video="/images/Puzzle_Solving_Factory.png"
-          files="/files/puzzle-solving-factory.zip">
-        <p>Puzzle solving factory.</p>
-        <p>Made with GameMaker Studio.</p>
+        <p>Learn fun facts about sleep, a perfect introduction to the theme of this hackathon!</p>
+        <p>Made with HTML, CSS and JavaScript.</p>
       </Project>
 
       <Project
@@ -56,26 +56,26 @@ const IndexPage = () => (
           author="Carl Enlund"
           video="/videos/Sleepnt.mp4"
           files="https://github.com/outyard/sleepnt/releases/download/0.1/sleepnt-0.1.zip">
-        <p>Sleep quiz.</p>
-        <p>Made with Unity and C#.</p>
-      </Project>
-
-      <Project
-          title="Caffeine King"
-          author="Anton Bergåker"
-          video="/videos/Caffeine_King.png"
-          files=""
-          site="https://anton.bergaker.com/caffeineking/">
-        <p>Caffeine king.</p>
-        <p>Made with GameMaker Studio.</p>
+        <p>Survive as long as possible in this VR nightmare horror game. You wake up in the middle of the night with a camera in your hand and blood stains on your bed, as you see a man floating towards you in the distance. Can you make it through the night using only the flash of your camera?</p>
+        <p>Made with Unity and C#, using free assets from the Unity Asset Store. Tested on Oculus Rift.</p>
       </Project>
 
       <Project
           title="Sleep Tracker"
           author="Albin Kroon"
           site="">
-        <p>Sleep tracker.</p>
+        <p>An app which tracks sleeping patterns by making use of sensors in your smartphone, for example microphone and gyroscope.  </p>
         <p>Made with Dart and Flutter.</p>
+      </Project>
+
+      <Project
+          title="Caffeine King"
+          author="Anton Bergåker"
+          image="/images/Caffeine_King.png"
+          files=""
+          site="https://anton.bergaker.com/caffeineking/">
+        <p>The king needs to regulate his caffeine intake to be able to rule over his kingdom. Keep the king alive by expanding his army of workers to streamline his coffee bean harvesting process.</p>
+        <p>Made with GameMaker Studio.</p>
       </Project>
 
       <Project
@@ -84,8 +84,8 @@ const IndexPage = () => (
           video=""
           files=""
           site="">
-        <p>Game engine backend.</p>
-        <p>Made with C++, OpenGL and Emscripten.</p>
+        <p>A fully custom game engine built from the ground up. Maybe there&rsquo;s an incoming platform game built on top of the engine.</p>
+        <p>Made with C++ and OpenGL.</p>
       </Project>
 
     </Hackathon>
