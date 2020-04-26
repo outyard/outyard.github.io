@@ -57,7 +57,7 @@ const IndexPage = () => (
           video="/videos/Sleepnt.mp4"
           files="https://github.com/outyard/sleepnt/releases/download/0.1/sleepnt-0.1.zip"
           github="https://github.com/outyard/sleepnt/">
-        <p>Survive as long as possible in this VR nightmare horror game. You wake up in the middle of the night with a camera in your hand and blood stains on your bed, as you see a man floating towards you in the distance. Can you make it through the night using only the flash of your camera?</p>
+        <p>Survive as long as possible in this VR nightmare horror game. You wake up in the middle of the night with a camera in your hand and blood stains on your bed, as you see a man floating towards you from a distance. Can you make it through the night using only the flash of your camera?</p>
         <p>Made with Unity and C#, using free assets from the Unity Asset Store. Tested on Oculus Rift.</p>
       </Project>
 
