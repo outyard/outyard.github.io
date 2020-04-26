@@ -34,7 +34,7 @@ const IndexPage = () => (
 
       <Project
           title="Puzzle Solving Factory"
-          author="Jacob"
+          author="Jacob S."
           video="/videos/Puzzle_Solving_Factory.mp4"
           files="/files/puzzle-solving-factory.zip">
         <p>Why sleep when you can spend the night solving puzzles? Help the factory worker stay alert and survive through his tough working conditions by utilizing the classic &ldquo;arm shake strategy&rdquo;.</p>
