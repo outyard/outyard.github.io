@@ -11,15 +11,83 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Outyard - Hackathon at Uppsala University" />
 
+    {/*
     <Hackathon
-        id="#004"
-        date="2020-04-25"
-        title="Theme: Sleep"
+        id="#005"
+        date=""
+        title="Upcoming hackathon"
         text="What can you make in just 7 hours? Join us on Discord, build something awesome and get inspired by the creations of others."
         start="17:00"
         end="00:00"
         total="7"
         isTeaser="true">
+    </Hackathon>
+    */}
+
+    <Hackathon
+        id="#004"
+        date="2020-04-25"
+        title="Make an app or game about sleep"
+        start="17:00"
+        end="00:00"
+        total="7">
+
+      <Project
+          title="Sleep Quiz"
+          author="Nils Lorentzon"
+          image="/images/Sleep_Quiz.png"
+          files=""
+          site="https://www.nils-lorentzon.com/Outyard2/">
+        <p>Sleep quiz.</p>
+        <p>Made with JavaScript.</p>
+      </Project>
+
+      <Project
+          title="Puzzle Solving Factory"
+          author="Jacob"
+          video="/images/Puzzle_Solving_Factory.png"
+          files="/files/puzzle-solving-factory.zip">
+        <p>Puzzle solving factory.</p>
+        <p>Made with GameMaker Studio.</p>
+      </Project>
+
+      <Project
+          title="Sleepn&rsquo;t"
+          author="Carl Enlund"
+          video="/videos/Sleepnt.mp4"
+          files="https://github.com/outyard/sleepnt/releases/download/0.1/sleepnt-0.1.zip">
+        <p>Sleep quiz.</p>
+        <p>Made with Unity and C#.</p>
+      </Project>
+
+      <Project
+          title="Caffeine King"
+          author="Anton Bergåker"
+          video="/videos/Caffeine_King.png"
+          files=""
+          site="https://anton.bergaker.com/caffeineking/">
+        <p>Caffeine king.</p>
+        <p>Made with GameMaker Studio.</p>
+      </Project>
+
+      <Project
+          title="Sleep Tracker"
+          author="Albin Kroon"
+          site="">
+        <p>Sleep tracker.</p>
+        <p>Made with Dart and Flutter.</p>
+      </Project>
+
+      <Project
+          title="OpenGL Game Engine"
+          author="Max Gabrielsson"
+          video=""
+          files=""
+          site="">
+        <p>Game engine backend.</p>
+        <p>Made with C++, OpenGL and Emscripten.</p>
+      </Project>
+
     </Hackathon>
 
     <Hackathon
@@ -42,9 +110,9 @@ const IndexPage = () => (
       </Project>
 
       <Project
-          title="Corona in Space"
+          title="Corona In Space"
           author="Albin Kroon"
-          image=""
+          image="/images/Corona_In_Space.png"
           files=""
           site=""
           github="">
