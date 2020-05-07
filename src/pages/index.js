@@ -16,7 +16,7 @@ const IndexPage = () => (
         date="2020-05-23"
         title="Upcoming hackathon"
         text="What can you make in just 7 hours? Join us on Discord, build something awesome and get inspired by the creations of others."
-        start="17:00"
+        start="16:30"
         end="00:00"
         total="7"
         isTeaser="true">
