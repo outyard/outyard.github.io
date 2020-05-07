@@ -4,12 +4,9 @@
   padding: 0 20px;
 
   &--wide {
-    max-width: none;
-    padding: 0 20px + 25px;
-
-    @media (max-width: 800px + 2*25px) {
-      padding-left: 20px;
-      padding-right: 20px;
+    @media (min-width: 800px + 2*25px) {
+      max-width: none;
+      padding: 0 20px + 25px;
     }
   }
 }

@@ -1,6 +1,6 @@
 .timer {
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #fff;
+  background: #000;
+  color: #fff;
   margin: 70px 0;
   padding: 35px 0;
   text-align: center;
@@ -22,6 +22,12 @@
   }
 
   &-near & {
+    &-time {
+      color: #ffa63b;
+    }
+  }
+
+  &-nearer & {
     &-time {
       color: #ff4444;
     }

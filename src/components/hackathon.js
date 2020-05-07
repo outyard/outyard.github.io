@@ -20,7 +20,7 @@ const Hackathon = ({id, date, title, text, start, end, total, location, location
     {isTeaser &&
       <div className="hackathon-timer">
         <Container wide="true">
-          <Timer></Timer>
+          <Timer date={date} start={start} end={end}></Timer>
         </Container>
       </div>
     }

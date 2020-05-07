@@ -3,8 +3,9 @@ import moment from 'moment';
 
 import './timer.scss';
 
-function getTimeLeft() {
-  let end = moment('2020-04-26 00:00:00 GMT+2');
+function getTimeLeft(date, endTime) {
+  let end = moment(`${date} ${endTime} GMT+2`);
+  end.add(1, 'days');
   let now = moment();
   let remaining = moment.duration(end.diff(now));
 
@@ -16,9 +17,10 @@ function getTimeLeft() {
 }
 
 class Timer extends Component {
-  state = getTimeLeft();
+  state = getTimeLeft(this.props.date, this.props.end);
 
   componentDidMount() {
+    console.log(this.props.date);
     this.interval = setInterval(() => {
       let {hours, seconds, minutes} = this.state;
 
@@ -56,17 +58,22 @@ class Timer extends Component {
   }
 
   componentWillUnmount() {
-    clearInterval(this.interval)
+    clearInterval(this.interval);
   }
 
   render() {
     const {hours, minutes, seconds} = this.state;
-    let hidden = false;
-    let finished = hours === 0 && minutes === 0 && seconds === 0;
-    let near = hours === 0 && minutes < 15;
+    let hidden = hours >= 7 && minutes >= 15;
+    let finished = hours <= 0 && minutes === 0 && seconds === 0;
+
+    let near = hours < 1;
+    let nearer = hours < 1 && minutes < 15;
 
     return (
-      <div className={`timer ${hidden ? 'timer-hidden' : ''} ${finished ? 'timer-finished' : ''} ${near ? 'timer-near' : ''}`}>
+      <div className={`timer ${hidden ? 'timer-hidden' : ''}
+                      ${finished ? 'timer-finished' : ''}
+                      ${near ? 'timer-near' : ''}
+                      ${nearer ? 'timer-nearer' : ''}`}>
         <h1 className="timer-time">
           {hours}:{minutes < 10 ? `0${minutes}` : minutes}:{seconds < 10 ? `0${seconds}` : seconds}
         </h1>

@@ -11,10 +11,9 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Outyard - Hackathon at Uppsala University" />
 
-    {/*
     <Hackathon
         id="#005"
-        date=""
+        date="2020-05-23"
         title="Upcoming hackathon"
         text="What can you make in just 7 hours? Join us on Discord, build something awesome and get inspired by the creations of others."
         start="17:00"
@@ -22,7 +21,6 @@ const IndexPage = () => (
         total="7"
         isTeaser="true">
     </Hackathon>
-    */}
 
     <Hackathon
         id="#004"
