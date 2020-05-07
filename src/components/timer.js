@@ -7,20 +7,25 @@ function getTimeLeft(date, endTime) {
   let end = moment(`${date} ${endTime} GMT+2`);
   end.add(1, 'days');
   let now = moment();
+  console.log(end, now);
   let remaining = moment.duration(end.diff(now));
 
-  return {
+  let state = {
+    days: remaining.days(),
     hours: remaining.hours(),
     minutes: remaining.minutes(),
     seconds: remaining.seconds(),
   };
+  state.hours = Math.max(state.hours, 0);
+  state.minutes = Math.max(state.minutes, 0);
+  state.seconds = Math.max(state.seconds, 0);
+  return state;
 }
 
 class Timer extends Component {
   state = getTimeLeft(this.props.date, this.props.end);
 
   componentDidMount() {
-    console.log(this.props.date);
     this.interval = setInterval(() => {
       let {hours, seconds, minutes} = this.state;
 
@@ -62,8 +67,8 @@ class Timer extends Component {
   }
 
   render() {
-    const {hours, minutes, seconds} = this.state;
-    let hidden = hours >= 7 && minutes >= 15;
+    const {days, hours, minutes, seconds} = this.state;
+    let hidden = days > 1 || (hours >= 7 && minutes >= 15);
     let finished = hours <= 0 && minutes === 0 && seconds === 0;
 
     let near = hours < 1;
