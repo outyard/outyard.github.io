@@ -14,12 +14,43 @@ const IndexPage = () => (
     <Hackathon
         id="#005"
         date="2020-05-23"
-        title="Upcoming hackathon"
-        text="What can you make in just 7 hours? Join us on Discord, build something awesome and get inspired by the creations of others."
-        start="16:30"
+        title="Make an app with randomly generated content"
+        start="17:00"
         end="00:00"
-        total="7"
-        isTeaser="true">
+        total="7">
+
+      <Project
+          title="Markov tweet generation"
+          author="Albin Kroon"
+          image="/images/Markov_tweet_generation.png"
+          files=""
+          site="https://markovtweet.herokuapp.com/">
+        <p>Markov tweet generation.</p>
+        <p>Made with NodeJS and Twit.</p>
+      </Project>
+
+      <Project
+          title="Wise"
+          author="Carl Enlund"
+          image="/images/Wise.png"
+          files=""
+          site="https://outyard.github.io/wise/"
+          github="https://github.com/outyard/wise">
+        <p>Wise quote generator.</p>
+        <p>Made with JavaScript.</p>
+      </Project>
+
+      <Project
+          title="Twinkle, Twinkle, Twinkle"
+          author="Carl Enlund"
+          image="/images/Twinkle_Twinkle_Twinkle.png"
+          files=""
+          site="https://markovtweet.herokuapp.com/"
+          github="https://github.com/outyard/twinkle-twinkle-twinkle">
+        <p>Twinkle, Twinkle, Little Star, but there's more.</p>
+        <p>Made with JavaScript.</p>
+      </Project>
+
     </Hackathon>
 
     <Hackathon
