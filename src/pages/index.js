@@ -25,7 +25,7 @@ const IndexPage = () => (
           image="/images/Markov_tweet_generation.png"
           files=""
           site="https://markovtweet.herokuapp.com/">
-        <p>Markov tweet generation.</p>
+        <p>Soon no one will be around to make new tweets. But stochastic models are here to save the day! This web app uses Markov chains to procedurally generate new tweets from your favorite Twitter users.</p>
         <p>Made with NodeJS and Twit.</p>
       </Project>
 
@@ -36,7 +36,7 @@ const IndexPage = () => (
           files=""
           site="https://outyard.github.io/wise/"
           github="https://github.com/outyard/wise">
-        <p>Wise quote generator.</p>
+        <p>Start your day off with a strong motivational quote. Personally nothing makes me more pumped up than hearing &ldquo;Always succeed&rdquo; or &ldquo;You can do it&rdquo;.</p>
         <p>Made with JavaScript.</p>
       </Project>
 
@@ -45,10 +45,10 @@ const IndexPage = () => (
           author="Carl Enlund"
           image="/images/Twinkle_Twinkle_Twinkle.png"
           files=""
-          site="https://markovtweet.herokuapp.com/"
+          site="https://outyard.github.io/twinkle-twinkle-twinkle/"
           github="https://github.com/outyard/twinkle-twinkle-twinkle">
-        <p>Twinkle, Twinkle, Little Star, but there's more.</p>
-        <p>Made with JavaScript.</p>
+        <p>Twinkle, Twinkle, Little Star, but there&rsquo;s more&hellip;</p>
+        <p>Made with JavaScript using the Web Audio API.</p>
       </Project>
 
     </Hackathon>
