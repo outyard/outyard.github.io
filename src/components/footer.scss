@@ -12,10 +12,10 @@
   &-logo {
     display: block;
     margin-bottom: 40px;
-    width: 130px;
+    width: 110px;
 
     @media (max-width: 800px) {
-      width: 96px;
+      width: 110px;
     }
   }
 
@@ -29,12 +29,12 @@
     margin-top: 15px;
   }
 
-  a {
-    color: #2b46ff;
-    font-weight: 700;
+  .footer-link {
+    display: block;
+    text-decoration: none;
 
     &:hover {
-      color: inherit;
+      color: #2b46ff;
     }
   }
 }
