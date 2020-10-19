@@ -12,7 +12,7 @@ export default () => (
 
     <Hackathon
         id="#005"
-        date="2020-05-23"
+        date="23 May 2020"
         title="Make an app with randomly generated content"
         start="17:00"
         end="00:00"
@@ -54,7 +54,7 @@ export default () => (
 
     <Hackathon
         id="#004"
-        date="2020-04-25"
+        date="25 April 2020"
         title="Make an app or game about sleep"
         start="17:00"
         end="00:00"
@@ -122,7 +122,7 @@ export default () => (
 
     <Hackathon
         id="#003"
-        date="2020-03-28"
+        date="28 March 2020"
         title="Make a game about the coronavirus disease"
         start="17:00"
         end="00:00"
@@ -186,7 +186,7 @@ export default () => (
 
     <Hackathon
         id="#002"
-        date="2020-02-28"
+        date="28 February 2020"
         title="Make a game with a customizable character"
         start="17:00"
         end="00:00"
@@ -219,7 +219,7 @@ export default () => (
 
     <Hackathon
         id="#001"
-        date="2020-01-24"
+        date="24 January 2020"
         title="Make an online multiplayer game with mobile controls"
         start="17:00"
         end="00:00"

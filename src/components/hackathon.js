@@ -9,8 +9,8 @@ export default ({id, date, title, text, start, end, total, location, locationUrl
   <div className={'hackathon ' + (isTeaser ? 'hackathon-teaser' : '')}>
     <Container>
       <div className="hackathon-meta">
-        {id}&ensp;{date && <>
-          <span className="hackathon-date">{date}&ensp;<span className="nowrap">{start}-{end} ({total} h)</span></span>
+        <span className="hackathon-meta-item">{id}</span>{date && <>
+          <span className="hackathon-meta-item"><span className="nowrap">{date}</span></span><span className="hackathon-meta-item"><span className="nowrap">{total} hours</span></span>
         </>}
       </div>
 
