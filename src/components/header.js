@@ -10,7 +10,7 @@ const Header = () => (
     <Container wide="true">
       <div className="header-wrapper">
         <Link className="header-logo-link" to="/">
-          <img className="header-logo" src="/images/logo-blue.svg" alt="Outyard" />
+          <img className="header-logo" src="/images/logo-white.svg" alt="Outyard" />
         </Link>
         <p className="header-subtitle">Hackathon at Uppsala University</p>
       </div>

@@ -8,7 +8,7 @@ const Footer = () => (
   <footer className="footer">
     <Container>
       <div className="footer-wrapper">
-        <img className="footer-logo" src="/images/logo-black.svg" alt="" />
+        <img className="footer-logo" src="/images/logo-blue.svg" alt="" />
         <div className="footer-links">
           <p><a href="mailto:carl.enlund@gmail.com">Contact</a></p>
           <p><a href="https://facebook.com/outyardhackathon" target="_blank">Facebook</a></p>

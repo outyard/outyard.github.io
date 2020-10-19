@@ -1,8 +1,8 @@
 @import 'layout';
 
 .header {
-  background: #fff;
-  color: #000;
+  background: #2b46ff;
+  color: #fff;
   overflow: auto;
   padding: 35px 0;
   position: relative;
@@ -27,7 +27,6 @@
   }
 
   &-subtitle {
-    color: #2b46ff;
     display: inline-block;
     float: right;
     font-size: 20px;
