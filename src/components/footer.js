@@ -5,7 +5,7 @@ import Container from './container';
 
 import './footer.scss';
 
-const Footer = () => (
+export default () => (
   <footer className="footer">
     <Container>
       <div className="footer-wrapper">
@@ -13,11 +13,9 @@ const Footer = () => (
         <div className="footer-links">
           <p><a className="footer-link" href="https://discord.gg/WeTRnTc" target="_blank">Discord</a></p>
           <p><a className="footer-link" href="https://facebook.com/outyardhackathon" target="_blank">Facebook</a></p>
-          <p><a className="footer-link" href="mailto:carl.enlund@gmail.com">Contact</a></p>
+          <p><Link className="footer-link" to="/about">About</Link></p>
         </div>
       </div>
     </Container>
   </footer>
 );
-
-export default Footer;

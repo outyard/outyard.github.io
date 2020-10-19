@@ -5,7 +5,7 @@ import Container from './container';
 
 import './header.scss';
 
-const Header = () => (
+export default () => (
   <header className="header">
     <Container wider="true">
       <div className="header-wrapper">
@@ -21,11 +21,9 @@ const Header = () => (
         <div className="header-nav-links">
           <a className="header-nav-link" href="https://discord.gg/WeTRnTc" target="_blank">Discord</a>
           <a className="header-nav-link" href="https://facebook.com/outyardhackathon" target="_blank">Facebook</a>
-          <a className="header-nav-link" href="mailto:carl.enlund@gmail.com">Contact</a>
+          <Link className="header-nav-link" to="/about">About</Link>
         </div>
       </Container>
     </nav>
   </header>
 );
-
-export default Header;

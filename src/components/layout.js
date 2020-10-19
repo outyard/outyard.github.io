@@ -7,28 +7,10 @@ import Footer from './footer';
 
 import './layout.scss';
 
-const Layout = ({children}) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `);
-
-  return (
-    <>
-      <Header />
-      <main className="main">{children}</main>
-      <Footer />
-    </>
-  );
-};
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
-};
-
-export default Layout;
+export default ({children}) => (
+  <>
+    <Header />
+    <main className="main">{children}</main>
+    <Footer />
+  </>
+);

@@ -5,7 +5,7 @@ import Timer from './timer';
 
 import './hackathon.scss';
 
-const Hackathon = ({id, date, title, text, start, end, total, location, locationUrl, isTeaser, children}) => (
+export default ({id, date, title, text, start, end, total, location, locationUrl, isTeaser, children}) => (
   <div className={'hackathon ' + (isTeaser ? 'hackathon-teaser' : '')}>
     <Container>
       <div className="hackathon-meta">
@@ -42,5 +42,3 @@ const Hackathon = ({id, date, title, text, start, end, total, location, location
     </Container>
   </div>
 );
-
-export default Hackathon;

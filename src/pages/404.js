@@ -2,15 +2,12 @@ import React from 'react';
 
 import Layout from '../components/layout';
 import SEO from '../components/seo';
-import Container from '../components/container';
-import Hackathon from '../components/hackathon';
+import Article from '../components/article';
 
-const NotFoundPage = () => (
+export default () => (
   <Layout>
     <SEO title="Page Not Found" />
-    <Hackathon title="Page Not Found">
-    </Hackathon>
+    <Article title="Page Not Found">
+    </Article>
   </Layout>
 );
-
-export default NotFoundPage;

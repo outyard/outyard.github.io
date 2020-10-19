@@ -1,10 +1,10 @@
 @import 'layout';
 
 .hackathon {
-  margin: 70px 0 140px;
+  padding: 70px 0 70px;
 
   &-meta {
-    color: #4258ef;
+    color: #4a60ed;
     font-size: 20px;
     font-weight: 700;
     line-height: 1.35;
@@ -34,20 +34,20 @@
     color: #2b46ff;
     font-size: 70px;
     font-style: italic;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 70px;
-    letter-spacing: -.02em;
+    letter-spacing: -.015em;
+    margin: 0 0 70px;
 
     @media (max-width: 800px) {
       font-size: 40px;
-      letter-spacing: -.015em;
+      letter-spacing: -.01em;
       line-height: 44px;
     }
   }
 
   &-image {
     display: block;
-    margin: 70px 0 0;
     width: 100%;
   }
 

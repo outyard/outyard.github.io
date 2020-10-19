@@ -4,10 +4,9 @@ import Hackathon from '../components/hackathon';
 import Layout from '../components/layout';
 import Project from '../components/project';
 import SEO from '../components/seo';
-
 import '../styles/reset.scss';
 
-const IndexPage = () => (
+export default () => (
   <Layout>
     <SEO title="Outyard - Hackathon at Uppsala University" />
 
@@ -274,5 +273,3 @@ const IndexPage = () => (
     </Hackathon>
   </Layout>
 );
-
-export default IndexPage;
