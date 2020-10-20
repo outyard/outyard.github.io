@@ -7,17 +7,17 @@ import './header.scss';
 
 export default () => (
   <header className="header">
-    <Container wider="true">
+
+    <Container>
       <div className="header-wrapper">
         <Link className="header-logo-link" to="/">
           <img className="header-logo" src="/images/logo-white.svg" alt="Outyard" />
         </Link>
-        <p className="header-subtitle">Hackathon at Uppsala University</p>
       </div>
     </Container>
 
     <nav class="header-nav">
-      <Container wider="true">
+      <Container>
         <div className="header-nav-links">
           <Link className="header-nav-link" to="/about">About</Link>
           <a className="header-nav-link" href="https://facebook.com/outyardhackathon" target="_blank">Facebook</a>
@@ -25,5 +25,6 @@ export default () => (
         </div>
       </Container>
     </nav>
+
   </header>
 );

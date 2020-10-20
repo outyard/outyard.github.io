@@ -12,12 +12,10 @@ export default () => (
     <SEO title="Outyard - About the hackathon" />
 
     <Article title="About Outyard">
-      <p><strong>Outyard is an independently organized hackathon at Uppsala University. The idea for the event was spawned by the lack of existing hackathons at the university.</strong></p>
-      <p>The hackathon is meant to inspire personal programming projects and is an excellent way to learn programming and working under intense deadlines.</p>
+      <p><strong>Outyard is an independently organized hackathon at Uppsala University. The hackathon is meant to inspire personal programming projects and is an excellent way to learn programming and working under intense deadlines.</strong></p>
       <p><a href="https://discord.gg/WeTRnTc" target="_blank">Join us on Discord</a>, build something awesome and get inspired by the creations of others.</p>
-      <p>Moderate programming experience is recommended. Unsure of your skill level? Don&rsquo;t worry, we&rsquo;re all here to learn &#x1f31d;</p>
+      <p>Moderate programming experience is recommended. Unsure of your skill level? Don&rsquo;t worry, we&rsquo;re all here to learn.</p>
       <p>Outyard is organized by Carl Enlund. You can reach me at <a href="mailto:carl@crl.io">carl@crl.io</a></p>
-      <p><Link to="/">View past projects</Link></p>
     </Article>
   </Layout>
 );

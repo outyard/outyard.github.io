@@ -1,14 +1,23 @@
 @import 'layout';
 
 .header {
-  background: #000;
+  background: url(/images/sketch.jpg);
+  background-size: 175%;
   color: #fff;
   overflow: hidden;
-  padding: 65px 0 0;
   position: relative;
 
-  @media (max-width: 800px) {
-    padding: 30px 0 0;
+  @media (min-width: 1000px) {
+    background-position: 0 -150px;
+    background-size: cover;
+  }
+
+  &-wrapper {
+    padding: 42px 0;
+
+    @media (max-width: 800px) {
+      padding: 32px 0;
+    }
   }
 
   &-logo-link {
@@ -19,10 +28,10 @@
 
   &-logo {
     display: block;
-    width: 110px;
+    width: 130px;
 
     @media (max-width: 800px) {
-      width: 110px;
+      width: 95px;
     }
   }
 
@@ -30,12 +39,15 @@
     display: inline-block;
     float: right;
     font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: .01em;
     line-height: 32px;
-    opacity: .9;
     vertical-align: bottom;
 
     @media (max-width: 800px) {
       font-size: inherit;
+      letter-spacing: .02em;
       line-height: inherit;
     }
 
@@ -46,33 +58,31 @@
   }
 
   &-nav {
-    background: #000;
-    margin-top: 55px;
-    padding: 20px 0;
+    background: rgba(0,0,0,.25);
+    padding: 13px 0;
 
     @media (max-width: 800px) {
-      margin-top: 55px;
-      padding: 13px 0;
-    }
-
-    @media (max-width: 380px) {
-      margin-top: 65px;
+      padding: 8px 0 10px;
     }
 
     &-link {
+      color: #fff;
       font-size: 20px;
+      font-weight: 700;
+      letter-spacing: .01em;
       text-decoration: none;
 
       @media (max-width: 800px) {
         font-size: inherit;
+        letter-spacing: .02em;
       }
 
       &:hover {
-        color: #2b46ff;
+        text-decoration: underline;
       }
 
       & + & {
-        margin-left: 2.5em;
+        margin-left: 3em;
 
         @media (max-width: 800px) {
           margin-left: 1.5em;

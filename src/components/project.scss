@@ -2,10 +2,10 @@
 
 .project {
   &-title {
-    color: #000;
+    color: #bbb;
     font-size: 32px;
     font-style: italic;
-    font-weight: 700;
+    font-weight: 900;
     line-height: 1.15;
     margin-bottom: 15px;
 
@@ -32,13 +32,13 @@
   }
 
   &-button {
-    color: #000;
+    color: #bbb;
     font-weight: 700;
     display: block;
-    text-decoration: none;
+    text-decoration: underline;
 
     &:hover {
-      color: #2b46ff;
+      color: #fff;
     }
   }
 

@@ -11,12 +11,13 @@ export default () => (
     <SEO title="Outyard - Hackathon at Uppsala University" />
 
     <Hackathon
-        id="#005"
+        id="#5"
         date="23 May 2020"
         title="Make an app with randomly generated content"
         start="17:00"
         end="00:00"
-        total="7">
+        total="7"
+        theme="#fbf051">
 
       <Project
           title="Markov tweet generation"
@@ -53,12 +54,13 @@ export default () => (
     </Hackathon>
 
     <Hackathon
-        id="#004"
+        id="#4"
         date="25 April 2020"
         title="Make an app or game about sleep"
         start="17:00"
         end="00:00"
-        total="7">
+        total="7"
+        theme="#20a1e3">
 
       <Project
           title="Puzzle Solving Factory"
@@ -121,12 +123,13 @@ export default () => (
     </Hackathon>
 
     <Hackathon
-        id="#003"
+        id="#3"
         date="28 March 2020"
         title="Make a game about the coronavirus disease"
         start="17:00"
         end="00:00"
-        total="7">
+        total="7"
+        theme="#20e34d">
 
       <Project
           title="Vibus"
@@ -185,14 +188,15 @@ export default () => (
     </Hackathon>
 
     <Hackathon
-        id="#002"
+        id="#2"
         date="28 February 2020"
         title="Make a game with a customizable character"
         start="17:00"
         end="00:00"
         total="7"
         location="Uthgård"
-        locationUrl="https://goo.gl/maps/y5K6Nvzf9Sxu8AiFA">
+        locationUrl="https://goo.gl/maps/y5K6Nvzf9Sxu8AiFA"
+        theme="#e26ad9">
 
       <Project
           title="Car"
@@ -218,14 +222,15 @@ export default () => (
     </Hackathon>
 
     <Hackathon
-        id="#001"
+        id="#1"
         date="24 January 2020"
         title="Make an online multiplayer game with mobile controls"
         start="17:00"
         end="00:00"
         total="7"
         location="Uthgård"
-        locationUrl="https://goo.gl/maps/y5K6Nvzf9Sxu8AiFA">
+        locationUrl="https://goo.gl/maps/y5K6Nvzf9Sxu8AiFA"
+        theme="#e39736">
 
       <Project
           title="Zombie Invasion"

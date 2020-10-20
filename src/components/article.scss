@@ -1,8 +1,8 @@
 .article {
-  padding: 70px 0 100px;
+  padding: 70px 0 70px;
 
   &-title {
-    color: #2b46ff;
+    color: #fff;
     font-size: 70px;
     font-style: italic;
     font-weight: 900;
@@ -26,8 +26,12 @@
   }
 
   a {
+    color: #bbb;
+    font-weight: 700;
+    text-decoration: underline;
+
     &:hover {
-      color: #2b46ff;
+      color: #fff;
     }
   }
 }
