@@ -19,9 +19,9 @@ export default () => (
     <nav class="header-nav">
       <Container wider="true">
         <div className="header-nav-links">
-          <a className="header-nav-link" href="https://discord.gg/WeTRnTc" target="_blank">Discord</a>
-          <a className="header-nav-link" href="https://facebook.com/outyardhackathon" target="_blank">Facebook</a>
           <Link className="header-nav-link" to="/about">About</Link>
+          <a className="header-nav-link" href="https://facebook.com/outyardhackathon" target="_blank">Facebook</a>
+          <a className="header-nav-link" href="https://discord.gg/WeTRnTc" target="_blank">Discord</a>
         </div>
       </Container>
     </nav>

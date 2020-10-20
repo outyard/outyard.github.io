@@ -4,20 +4,21 @@
   padding: 70px 0 70px;
 
   &-meta {
-    color: #9497a4;
-    font-size: 27px;
+    color: #9193a1;
+    font-size: 20px;
+    font-weight: 700;
     line-height: 1.35;
     overflow: hidden;
     margin-bottom: 2px;
 
     @media (max-width: 800px) {
-      font-size: 19px;
-      margin-bottom: 0;
+      font-size: inherit;
+      margin-bottom: 1px;
     }
 
     &-item {
       float: left;
-      margin-right: 1em;
+      margin-right: .8em;
 
       &:last-child {
         margin-right: 0;
