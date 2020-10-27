@@ -13,14 +13,14 @@ export default () => (
     <Hackathon
         id="#5"
         date="23 May 2020"
-        title="Make an app with randomly generated content"
+        title="Make an app that generates random content"
         start="17:00"
         end="00:00"
         total="7"
         theme="#fbf051">
 
       <Project
-          title="Markov tweet generation"
+          title="Twitter Markov"
           author="Albin Kroon"
           image="/images/Markov_tweet_generation.png"
           files=""

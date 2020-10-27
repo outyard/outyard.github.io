@@ -1,5 +1,7 @@
+@import 'layout';
+
 .article {
-  padding: 70px 0 70px;
+  padding: 75px 0 70px;
 
   &-title {
     color: #fff;
@@ -10,7 +12,7 @@
     letter-spacing: -.015em;
     margin: 0 0 70px;
 
-    @media (max-width: 800px) {
+    @media (max-width: $mobile-width) {
       font-size: 40px;
       letter-spacing: -.01em;
       line-height: 44px;
@@ -19,6 +21,11 @@
 
   p {
     margin: 15px 0;
+    max-width: 500px;
+
+    @media (max-width: 650px) {
+      max-width: none;
+    }
   }
 
   strong {
@@ -33,5 +40,11 @@
     &:hover {
       color: #fff;
     }
+  }
+
+  img {
+    display: block;
+    margin: 45px 0;
+    width: 100%;
   }
 }
