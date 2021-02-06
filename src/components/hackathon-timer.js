@@ -3,11 +3,12 @@ import moment from 'moment';
 import momentDurationFormatSetup from 'moment-duration-format';
 
 import './hackathon-timer.scss';
+import Container from './container';
 
 momentDurationFormatSetup(moment);
 
 const HackathonTimer = ({start, end}) => {
-  const [time, setTime] = useState(null);
+  const [time, setTime] = useState(0);
 
   useInterval(() => {
     const now = moment();
@@ -29,21 +30,23 @@ const HackathonTimer = ({start, end}) => {
   const timeText = duration.format('hh:mm:ss', {trim: false});
 
   return (
-    <div
-      className={`
-        hackathon-timer
-        ${finished ? 'hackathon-timer-finished' : ''}
-        ${nearlyFinished ? 'hackathon-timer-nearly-finished' : ''}
-      `}
-    >
-      <p className="hackathon-timer-starting-soon">
-        {startingSoon ? 'Starting soon' : ''}
-        {isStarted && !nearlyFinished ? 'Happy hacking' : ''}
-        {isStarted && nearlyFinished ? 'Time flies' : ''}
-        {finished ? 'Time’s up! ggwp' : ''}
-      </p>
-      <h1 className="hackathon-timer-time">{timeText}</h1>
-    </div>
+    <Container>
+      <div
+        className={`
+          hackathon-timer
+          ${finished ? 'hackathon-timer-finished' : ''}
+          ${nearlyFinished ? 'hackathon-timer-nearly-finished' : ''}
+        `}
+      >
+        <p className="hackathon-timer-starting-soon">
+          {startingSoon ? 'Starting soon' : ''}
+          {isStarted && !nearlyFinished ? 'Happy hacking' : ''}
+          {isStarted && nearlyFinished ? 'Time flies' : ''}
+          {finished ? 'Time’s up! ggwp' : ''}
+        </p>
+        <h1 className="hackathon-timer-time">{timeText}</h1>
+      </div>
+    </Container>
   );
 };
 
@@ -59,6 +62,7 @@ const useInterval = (callback, delay) => {
       savedCallback.current();
     };
     if (delay !== null) {
+      tick();
       const id = setInterval(tick, delay);
       return () => clearInterval(id);
     }

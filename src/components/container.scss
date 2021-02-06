@@ -8,4 +8,8 @@
   @media (max-width: $mobile-width) {
     max-width: none;
   }
+
+  &-wide {
+    max-width: none;
+  }
 }
