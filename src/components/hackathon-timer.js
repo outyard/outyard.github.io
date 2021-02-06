@@ -12,8 +12,8 @@ const HackathonTimer = ({start, end}) => {
 
   useInterval(() => {
     const now = moment();
-    const isStarted = now.isSameOrAfter(start);
-    const difference = isStarted
+    const started = now.isSameOrAfter(start);
+    const difference = started
         ? moment(end).diff(now, 's')
         : moment(start).diff(now, 's');
     setTime(difference);
@@ -23,30 +23,31 @@ const HackathonTimer = ({start, end}) => {
   const duration = moment.duration(time, 's');
   const hours = duration.hours();
   const startingSoon = now.isBefore(start) && hours <= 24;
-  const isStarted = now.isSameOrAfter(start) && now.isBefore(end);
+  const started = now.isSameOrAfter(start) && now.isBefore(end);
   const nearlyFinished = hours < 1;
   const finished = now.isSameOrAfter(end);
 
   const timeText = duration.format('hh:mm:ss', {trim: false});
 
   return (
-    <Container>
-      <div
-        className={`
-          hackathon-timer
-          ${finished ? 'hackathon-timer-finished' : ''}
-          ${nearlyFinished ? 'hackathon-timer-nearly-finished' : ''}
-        `}
-      >
+    <div
+      className={`
+        hackathon-timer
+        ${started ? 'hackathon-timer-started' : ''}
+        ${finished ? 'hackathon-timer-finished' : ''}
+        ${nearlyFinished ? 'hackathon-timer-nearly-finished' : ''}
+      `}
+    >
+      <Container wide="true">
         <p className="hackathon-timer-starting-soon">
           {startingSoon ? 'Starting soon' : ''}
-          {isStarted && !nearlyFinished ? 'Happy hacking' : ''}
-          {isStarted && nearlyFinished ? 'Time flies' : ''}
+          {started && !nearlyFinished ? 'Happy hacking' : ''}
+          {started && nearlyFinished ? 'Time flies' : ''}
           {finished ? 'Time’s up! ggwp' : ''}
         </p>
         <h1 className="hackathon-timer-time">{timeText}</h1>
-      </div>
-    </Container>
+      </Container>
+    </div>
   );
 };
 

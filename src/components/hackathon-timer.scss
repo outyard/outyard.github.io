@@ -5,11 +5,11 @@
   border-left: 0;
   border-right: 0;
   color: #000;
-  padding: 15vh 0 19vh;
+  padding: 15vh 0 20vh;
   text-align: center;
 
   @media (max-width: $mobile-width) {
-    padding: 7.5vh 0 10vh;
+    padding: 10vh 0 13vh;
   }
 
   &-time {
@@ -18,16 +18,18 @@
     letter-spacing: -.005em;
     line-height: 1;
 
-    @media (max-width: 1150px) {
+    @media (max-width: $mobile-width) {
       font-size: 38px;
       letter-spacing: 0;
     }
   }
 
-  &-nearly-finished & {
-    &-time {
-      color: #ff4444;
-    }
+  &-started {
+    color: #2b46ff;
+  }
+
+  &-nearly-finished {
+    color: #ff4444;
   }
 
   &-status {
