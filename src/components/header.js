@@ -9,7 +9,7 @@ export default () => (
   <header className="header">
     <Container>
 
-      <nav class="header-nav">
+      <nav className="header-nav">
         <div className="header-nav-links">
           <Link className="header-nav-link header-nav-logo" to="/">
             <img className="header-nav-logo-image" src="/images/logo-white.svg" alt="Outyard" />

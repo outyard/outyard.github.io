@@ -1,6 +1,7 @@
 import React from 'react';
 
 import Hackathon from '../components/hackathon';
+import HackathonTeaser from '../components/hackathon-teaser';
 import Layout from '../components/layout';
 import Project from '../components/project';
 import SEO from '../components/seo';
@@ -10,14 +11,22 @@ export default () => (
   <Layout>
     <SEO title="Outyard - Hackathon at Uppsala University" />
 
+    <HackathonTeaser
+        id="#006"
+        date="6 February 2021"
+        title="Make a game about darkness"
+        start="2021-02-06 14:00"
+        end="2021-02-07 14:00"
+        total="24">
+    </HackathonTeaser>
+
     <Hackathon
-        id="#5"
+        id="#005"
         date="23 May 2020"
         title="Make an app that generates random content"
-        start="17:00"
-        end="00:00"
-        total="7"
-        theme="#fbf051">
+        start="2020-05-23 17:00"
+        end="2020-05-24 00:00"
+        total="7">
 
       <Project
           title="Twitter Markov"
@@ -54,13 +63,12 @@ export default () => (
     </Hackathon>
 
     <Hackathon
-        id="#4"
+        id="#004"
         date="25 April 2020"
         title="Make an app or game about sleep"
-        start="17:00"
-        end="00:00"
-        total="7"
-        theme="#20a1e3">
+        start="2020-04-25 17:00"
+        end="2020-04-26 00:00"
+        total="7">
 
       <Project
           title="Puzzle Solving Factory"
@@ -123,13 +131,12 @@ export default () => (
     </Hackathon>
 
     <Hackathon
-        id="#3"
+        id="#003"
         date="28 March 2020"
         title="Make a game about the coronavirus disease"
-        start="17:00"
-        end="00:00"
-        total="7"
-        theme="#20e34d">
+        start="2020-03-28 17:00"
+        end="2020-03-29 00:00"
+        total="7">
 
       <Project
           title="Vibus"
@@ -188,15 +195,14 @@ export default () => (
     </Hackathon>
 
     <Hackathon
-        id="#2"
+        id="#002"
         date="28 February 2020"
         title="Make a game with a customizable character"
-        start="17:00"
-        end="00:00"
+        start="2020-02-28 17:00"
+        end="2020-02-29 00:00"
         total="7"
         location="Uthgård"
-        locationUrl="https://goo.gl/maps/y5K6Nvzf9Sxu8AiFA"
-        theme="#e26ad9">
+        locationUrl="https://goo.gl/maps/y5K6Nvzf9Sxu8AiFA">
 
       <Project
           title="Car"
@@ -222,15 +228,14 @@ export default () => (
     </Hackathon>
 
     <Hackathon
-        id="#1"
+        id="#001"
         date="24 January 2020"
         title="Make an online multiplayer game with mobile controls"
-        start="17:00"
-        end="00:00"
+        start="2020-01-24 17:00"
+        end="2020-01-25 00:00"
         total="7"
         location="Uthgård"
-        locationUrl="https://goo.gl/maps/y5K6Nvzf9Sxu8AiFA"
-        theme="#e39736">
+        locationUrl="https://goo.gl/maps/y5K6Nvzf9Sxu8AiFA">
 
       <Project
           title="Zombie Invasion"
