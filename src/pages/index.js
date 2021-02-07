@@ -33,7 +33,7 @@ export default () => (
           video="/videos/dartness.mp4"
           files="/files/dartness.zip"
           github="https://github.com/carlenlund/dartness">
-        <p>Play darts in the dark.</p>
+        <p>Play darts in the dark. In this game the player has to memorize dart board positions and throw darts after the lights go out.</p>
         <p>Made with Unity and SteamVR.</p>
       </Project>
 
