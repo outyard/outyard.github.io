@@ -8,14 +8,14 @@
     font-size: 70px;
     font-style: italic;
     font-weight: 900;
-    line-height: 70px;
-    letter-spacing: -.015em;
-    margin: 0 0 70px;
+    line-height: 76px;
+    letter-spacing: -.005em;
+    margin: 0 0 80px;
 
     @media (max-width: $mobile-width) {
-      font-size: 40px;
-      letter-spacing: -.01em;
-      line-height: 44px;
+      font-size: 38px;
+      letter-spacing: 0em;
+      line-height: 48px;
     }
   }
 
@@ -44,7 +44,7 @@
 
   img {
     display: block;
-    margin: 45px 0;
+    margin: 20px 0;
     width: 100%;
   }
 }

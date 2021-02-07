@@ -10,7 +10,11 @@
   &-logo {
     display: block;
     margin-bottom: 40px;
-    width: 85px;
+    width: 100px;
+
+    @media (max-width: $mobile-width) {
+      width: 85px;
+    }
   }
 
   &-text {

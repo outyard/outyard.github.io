@@ -7,7 +7,7 @@
     display: inline-block;
     letter-spacing: .01em;
     line-height: 1.2;
-    margin: -.35em 0;
+    margin: -.4em 0;
     overflow: hidden;
 
     @media (max-width: $mobile-width) {
@@ -30,8 +30,8 @@
       background: #fff;
       border-radius: 100px;
       color: #222;
-      margin: .6em .9em 0 0;
-      padding: .2em .4em .25em;
+      margin: .5em .9em 0 0;
+      padding: .3em .4em .35em;
       width: 4em;
       text-align: center;
     }
@@ -54,7 +54,7 @@
     font-size: 70px;
     font-style: italic;
     font-weight: 900;
-    line-height: 74px;
+    line-height: 76px;
     letter-spacing: -.005em;
 
     @media (max-width: $mobile-width) {
