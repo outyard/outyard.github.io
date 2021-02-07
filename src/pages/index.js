@@ -86,7 +86,7 @@ export default () => (
       <Project
           title="Wise"
           author="Carl Enlund"
-          image="/images/Wise.png"
+          image="/images/wise.png"
           site="https://outyard.github.io/wise/"
           github="https://github.com/outyard/wise">
         <p>Start your day off with a strong motivational quote. Personally nothing makes me more pumped up than hearing &ldquo;Always succeed&rdquo; or &ldquo;You can do it&rdquo;.</p>
@@ -134,7 +134,7 @@ export default () => (
       <Project
           title="Sleepn&rsquo;t"
           author="Carl Enlund"
-          video="/videos/Sleepnt.mp4"
+          video="/videos/sleepnt.mp4"
           files="https://github.com/outyard/sleepnt/releases/download/0.1/sleepnt-0.1.zip"
           github="https://github.com/outyard/sleepnt/">
         <p>Survive as long as possible in this VR nightmare horror game. You wake up in the middle of the night with a camera in your hand and blood stains on your bed, as you see a man floating towards you from a distance. Can you make it through the night using only the flash of your camera?</p>
@@ -177,7 +177,7 @@ export default () => (
       <Project
           title="Vibus"
           author="Anton Bergåker"
-          video="/videos/Vibus.mp4"
+          video="/videos/vibus.mp4"
           site="https://anton.bergaker.com/vibus/"
           github="https://github.com/outyard/vibus">
         <p>Prevent the virus from spreading on the bus! You are a driver for UL and there&rsquo;s a pandemic. Use state of the art technology to keep the bus clean from infection.</p>
@@ -195,7 +195,7 @@ export default () => (
       <Project
           title="Hand"
           author="Carl Enlund"
-          video="/videos/Hand.mp4"
+          video="/videos/hand.mp4"
           site="https://outyard.github.io/hand/"
           github="https://github.com/outyard/hand">
         <p>Practice social distancing in this webcam-based dodge-the-bullets game. If you accumulate too many virus particles, the game is over. Hand tracking is used to locate the player&rsquo;s hand through the webcam feed, making the game a (mostly) wireless experience.</p>
@@ -235,7 +235,7 @@ export default () => (
       <Project
           title="Car"
           author="Carl Enlund"
-          image="/images/Car.png"
+          image="/images/car.png"
           site="https://outyard.github.io/car/"
           github="https://github.com/outyard/car">
         <p>A game where you customize a flying car and try to beat a map filled with colorful balloons. The catch is that everything you do drains energy from the car, so you better hurry! You can choose which gun and thruster to use through a simple menu.</p>
@@ -274,7 +274,7 @@ export default () => (
       <Project
           title="Shooter"
           author="Carl Enlund"
-          image="/images/Shooter.png"
+          image="/images/shooter.png"
           site="https://outyardshooter.herokuapp.com"
           github="https://github.com/outyard/shooter">
         <p>A web-based first-person shooter where the players fight eachother to see who first scores 10 points. The game contains 5 unique maps which are cycled through after each win. Plays sound effects for gunshots and when a player wins.</p>
