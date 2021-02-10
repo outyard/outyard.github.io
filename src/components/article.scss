@@ -1,7 +1,7 @@
 @import 'layout';
 
 .article {
-  padding: 110px 0 175px;
+  padding: 145px 0 175px;
 
   &-title {
     font-size: 35px;
@@ -10,8 +10,7 @@
     margin-bottom: 70px;
 
     @media (max-width: $mobile-width) {
-      font-size: 21px;
-      font-weight: 700;
+      font-size: 27px;
     }
   }
 
@@ -26,11 +25,13 @@
 
   strong {
     font-weight: 700;
+    letter-spacing: .02em;
   }
 
   a {
     color: inherit;
     font-weight: 700;
+    letter-spacing: .02em;
     text-decoration: underline;
 
     &:hover {

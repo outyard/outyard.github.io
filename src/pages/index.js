@@ -60,7 +60,7 @@ export default () => (
           title="Diaglow"
           author="Albin Kroon"
           image="/images/diaglow.png">
-        <p>Barely visible monsters are hiding in the dark. Luckily you&rsquo;re armed with a powerful flashlight.</p>
+        <p>Invisible monsters are hiding in the dark. Luckily you&rsquo;re armed with a powerful flashlight.</p>
         <p>Made with Python and Pygame.</p>
       </Project>
 
@@ -69,19 +69,9 @@ export default () => (
     <Hackathon
         id="#005"
         date="23 May 2020"
-        title="Make an app that generates random content"
+        title="Make an app with random content"
         start="2020-05-23 17:00"
         end="2020-05-24 00:00">
-
-      <Project
-          title="Twitter Markov"
-          author="Albin Kroon"
-          image="/images/twitter-markov.png"
-          files=""
-          site="https://markovtweet.herokuapp.com/">
-        <p>Soon no one will be around to make new tweets. But stochastic models are here to save the day! This web app uses Markov chains to procedurally generate new tweets from your favorite Twitter users.</p>
-        <p>Made with NodeJS and Twit.</p>
-      </Project>
 
       <Project
           title="Wise"
@@ -91,6 +81,16 @@ export default () => (
           github="https://github.com/outyard/wise">
         <p>Start your day off with a strong motivational quote. Personally nothing makes me more pumped up than hearing &ldquo;Always succeed&rdquo; or &ldquo;You can do it&rdquo;.</p>
         <p>Made with JavaScript.</p>
+      </Project>
+
+      <Project
+          title="Twitter Markov"
+          author="Albin Kroon"
+          image="/images/twitter-markov.png"
+          files=""
+          site="https://markovtweet.herokuapp.com/">
+        <p>Soon no one will be around to make new tweets. But stochastic models are here to save the day! This web app uses Markov chains to procedurally generate new tweets from your favorite Twitter users.</p>
+        <p>Made with NodeJS and Twit.</p>
       </Project>
 
       <Project
@@ -233,6 +233,15 @@ export default () => (
         locationUrl="https://goo.gl/maps/y5K6Nvzf9Sxu8AiFA">
 
       <Project
+          title="Petrock Simulator"
+          author="Anton Bergåker"
+          video="/videos/petrock-simulator.mp4"
+          github="https://github.com/outyard/Petrock-Simulator">
+        <p>Design your own personal petrock to strategically beat this physics-based sidescroller. The game is literally rock and roll.</p>
+        <p>Made with GameMaker Studio.</p>
+      </Project>
+
+      <Project
           title="Car"
           author="Carl Enlund"
           image="/images/car.png"
@@ -240,15 +249,6 @@ export default () => (
           github="https://github.com/outyard/car">
         <p>A game where you customize a flying car and try to beat a map filled with colorful balloons. The catch is that everything you do drains energy from the car, so you better hurry! You can choose which gun and thruster to use through a simple menu.</p>
         <p>Made with JavaScript.</p>
-      </Project>
-
-      <Project
-          title="Petrock Simulator"
-          author="Anton Bergåker"
-          video="/videos/petrock-simulator.mp4"
-          github="https://github.com/outyard/Petrock-Simulator">
-        <p>Design your own personal petrock to strategically beat this physics-based sidescroller. The game is literally rock and roll.</p>
-        <p>Made with GameMaker Studio.</p>
       </Project>
 
     </Hackathon>

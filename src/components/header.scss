@@ -6,7 +6,7 @@
   background-position: 0 -70px;
   color: #fff;
   overflow: hidden;
-  padding: 26px 0;
+  padding: 25px 0;
   position: relative;
 
   @media (min-width: 800px) {
@@ -55,10 +55,10 @@
         display: inline-block;
         text-decoration: none;
         vertical-align: top;
-        width: 100px;
+        width: 85px;
 
         @media (max-width: $mobile-width) {
-          width: 85px;
+          width: 77px;
         }
       }
     }
