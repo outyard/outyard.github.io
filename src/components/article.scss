@@ -1,16 +1,16 @@
 @import 'layout';
 
 .article {
-  padding: 75px 0 70px;
+  padding: 110px 0 175px;
 
   &-title {
     color: #fff;
     font-size: 70px;
     font-style: italic;
     font-weight: 900;
-    line-height: 76px;
+    line-height: 84px;
     letter-spacing: -.005em;
-    margin: 0 0 80px;
+    margin: 0 0 70px;
 
     @media (max-width: $mobile-width) {
       font-size: 38px;
