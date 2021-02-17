@@ -9,8 +9,10 @@ import './layout.scss';
 
 export default ({children}) => (
   <>
-    <Header />
-    <main className="main">{children}</main>
+    <main className="main">
+      <Header />
+      {children}
+    </main>
     <Footer />
   </>
 );

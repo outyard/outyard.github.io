@@ -1,85 +1,28 @@
 @import 'layout';
 
 .hackathon {
-  background: #384756;
-  padding: 0 0 200px;
+  padding: 0 0 0;
 
-  &-header {
-    background: #141517;
-    padding: 155px 0 80px;
-    position: relative;
-    z-index: 1;
-
-    $size: 35px;
-    $size-mobile: 28px;
-    $border-radius: 13px;
-    $border-radius-mobile: 11px;
-    $offset: $border-radius/2 + 2px;
-    $offset-mobile: $border-radius-mobile/2 + 2px;
-
-    &::before,
-    &::after {
-      border-radius: $border-radius;
-      content: '';
-      height: 2*$size;
-      left: 50%;
-      position: absolute;
-      transform: translateX(-50%) rotate(45deg);
-      width: 2*$size;
-      z-index: 0;
-
-      @media (max-width: $mobile-width) {
-	border-radius: $border-radius-mobile;
-	height: 2*$size-mobile;
-	width: 2*$size-mobile;
-      }
-    }
-
-    &::before {
-      background: #384756;
-      top: -$size - $offset;
-
-      @media (max-width: $mobile-width) {
-	top: -$size-mobile - $offset-mobile;
-      }
-    }
-
-    &::after {
-      background: #141517;
-      bottom: -$size + $offset;
-
-      @media (max-width: $mobile-width) {
-	bottom: -$size-mobile + $offset-mobile;
-      }
-    }
+  &:last-child {
+    padding: 0 0 150px;
   }
 
-  &:first-of-type &-header {
-    padding-top: 140px;
-
-    &::before {
-      display: none;
-    }
+  &-header {
+    padding: 150px 0 75px;
+    position: relative;
   }
 
   &-meta {
-    color: #fff;
+    color: #eee;
     display: block;
-    letter-spacing: .01em;
+    font-weight: 700;
+    letter-spacing: .03em;
     line-height: 1.2;
-    margin: 0 0 8px;
-    text-align: center;
-
-    @media (max-width: $mobile-width) {
-      font-size: inherit;
-      text-align: left;
-    }
+    margin: 0 0 12px;
+    text-decoration: none;
 
     &-item {
-      font-weight: 700;
-      letter-spacing: .02em;
-      margin: 0 .85em 0 0;
-      padding: .8em 0 .95em;
+      margin-right: 1em;
 
       &:last-child {
         margin-right: 0;
@@ -87,88 +30,48 @@
     }
 
     &-id {
-      background: #fff;
-      border-radius: 50px;
-      color: #222;
+      background: #eee;
+      border-radius: 30px;
+      color: #000;
       display: inline-block;
-      margin: .5em .9em 0 0;
-      padding: .15em .65em .2em;
-      text-align: center;
+      font-weight: 700;
+      letter-spacing: .015em;
+      margin-left: .06em;
+      margin-right: .95em;
+      padding: .3em 1em .35em;
+      text-decoration: none;
 
       @media (max-width: $mobile-width) {
-        margin: .55em .9em 0 0;
-        padding: .1em .5em .15em;
+	padding: .2em .8em .3em;
       }
-    }
 
-    a {
-      color: inherit;
+      &:hover {
+	background: $primary-color;
+	color: #000;
+      }
     }
   }
 
   &-title {
-    color: #fff;
-    font-size: 70px;
-    font-style: italic;
+    color: #eee;
+    font-size: 87px;
     font-weight: 900;
-    line-height: 84px;
-    letter-spacing: -.005em;
-    text-align: center;
+    line-height: 100px;
+    letter-spacing: -.01em;
+    text-indent: -.02em;
 
     @media (max-width: $mobile-width) {
-      font-size: 40px;
-      letter-spacing: 0;
-      line-height: 52px;
-      text-align: left;
-    }
-  }
-
-  &-image {
-    display: block;
-    width: 100%;
-  }
-
-  &-text {
-    font-size: 20px;
-    font-style: italic;
-    font-weight: 700;
-    line-height: 1.3;
-    margin-top: 35px;
-
-    @media (max-width: $mobile-width) {
-      font-size: inherit;
-      line-height: inherit;
-    }
-  }
-
-  &-buttons {
-    margin-top: 35px;
-  }
-
-  &-button {
-    background: #fff;
-    border-radius: 5px;
-    color: #000;
-    display: inline-block;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 1.3;
-    padding: .5em .5em .7em;
-    text-decoration: none;
-
-    &:hover {
-      background: #000;
-      color: #fff;
-    }
-
-    @media (max-width: $mobile-width) {
-      font-size: inherit;
-      line-height: inherit;
+      font-size: 46px;
+      letter-spacing: -.005em;
+      line-height: 59px;
     }
   }
 
   &-projects {
-    margin-top: 95px;
+    margin-top: 75px;
+
+    @media (max-width: $mobile-width) {
+      margin-top: 50px;
+    }
   }
 }

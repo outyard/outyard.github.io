@@ -9,12 +9,15 @@ export default () => (
   <footer className="footer">
     <Container>
       <div className="footer-wrapper">
-        <Link to="/"><img className="footer-logo" src="/images/logo-gray.svg" alt="" /></Link>
+	<div className="footer-logo-wrapper">
+	  <Link to="/" className="footer-logo-link">
+	    <img className="footer-logo" src="/images/logo-black.svg" alt="" />
+	  </Link>
+	</div>
         <div className="footer-links">
-          <p><Link className="footer-link" to="/about">About</Link></p>
+          <p><a className="footer-link" href="mailto:carl@crl.io" target="_blank">Contact</a></p>
           <p><a className="footer-link" href="https://facebook.com/outyardhackathon" target="_blank">Facebook</a></p>
-          <p><a className="footer-link" href="https://discord.gg/WeTRnTc" target="_blank">Discord</a></p>
-          <p><a className="footer-link" href="https://github.com/outyard" target="_blank">GitHub</a></p>
+          <p><a className="footer-link" href="http://github.com/outyard" target="_blank">GitHub</a></p>
         </div>
       </div>
     </Container>

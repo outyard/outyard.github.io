@@ -1,11 +1,15 @@
-$mobile-width: 950px;
+$mobile-width: 850px;
+$primary-color: #65aaff;
+$secondary-color: #ffc966;
+$text-color: #c5c5c5;
 
 body {
-  background: #fff;
-  color: #222;
-  font-family: "neue-haas-unica", sans-serif;
+  background: #eee;
+  color: #1b1b1b;
+  font-family: 'neue-haas-unica', sans-serif;
   font-size: 16px;
-  line-height: 23px;
+  font-variant-numeric: proportional-nums;
+  line-height: 25px;
 }
 
 a {
@@ -21,6 +25,6 @@ a {
 }
 
 .main {
-  background: #141517;
-  color: #c8cfd5;
+  background: #000;
+  color: $text-color;
 }

@@ -1,35 +1,37 @@
 @import 'layout';
 
 .footer {
-  background: #fff;
-  padding: 48px 0 175px;
+  background: #eee;
+  color: #000;
+  font-weight: 700;
+  padding: 50px 0 200px;
 
-  &-wrapper {
+  &-logo-wrapper {
+    margin-bottom: 47px;
+  }
+
+  &-logo-link {
+    display: inline;
   }
 
   &-logo {
-    display: block;
-    margin-bottom: 40px;
-    width: 85px;
+    display: inline-block;
+    line-height: 0;
+    margin-left: 1px;
+    vertical-align: top;
+    width: 89px;
 
     @media (max-width: $mobile-width) {
-      width: 77px;
+      width: 76px;
     }
   }
 
-  &-text {
-    font-style: italic;
-    margin-bottom: 40px;
-    max-width: 380px;
-  }
-
   p + p {
-    margin-top: 15px;
+    margin-top: 12.5px;
   }
 
-  .footer-link {
-    display: block;
-    font-weight: 700;
+  &-link {
+    display: inline-bock;
     text-decoration: none;
 
     &:hover {

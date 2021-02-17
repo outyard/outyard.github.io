@@ -7,16 +7,17 @@ import Container from './container';
 
 momentDurationFormatSetup(moment);
 
-const Hackathon = ({id, date, title, start, end, children}) => {
+const Hackathon = ({id, title, start, end, children}) => {
+  const date = moment(start).format("D MMM YYYY");
   const total = moment(end).diff(start, 'h');
 
   return (
-    <div className="hackathon">
+    <div className="hackathon" id={id}>
       <div className="hackathon-header">
-        <Container wider="true">
+        <Container>
           <div className="hackathon-meta">
-            <span className="hackathon-meta-id hackathon-meta-item">{id}</span>{date && <>
-              <span className="hackathon-meta-item"><span className="nowrap">{date}</span></span><span className="hackathon-meta-item"><span className="nowrap">{total} h</span></span>
+            <a className="hackathon-meta-id hackathon-meta-item" href={'#' + id}>{id}</a>{date && <>
+              <span className="hackathon-meta-item"><span className="nowrap">{date}</span></span><span className="hackathon-meta-item"><span className="nowrap">{total} hours</span></span>
             </>}
           </div>
           <h1 className="hackathon-title">{title}</h1>

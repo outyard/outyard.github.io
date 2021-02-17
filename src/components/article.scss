@@ -1,47 +1,45 @@
 @import 'layout';
 
 .article {
-  padding: 145px 0 175px;
+  color: $text-color;
+  padding: 150px 0 150px;
 
   &-title {
     font-size: 35px;
     font-weight: 900;
+    letter-spacing: .01em;
     line-height: 1.4;
-    margin-bottom: 70px;
+    margin-bottom: 50px;
+    max-width: 400px;
 
     @media (max-width: $mobile-width) {
-      font-size: 27px;
+      font-size: 30px;
+      letter-spacing: .015em;
+      line-height: 1.45;
     }
   }
 
   p {
-    margin: 15px 0;
-    max-width: 500px;
+    letter-spacing: .01em;
+    max-width: 400px;
 
     @media (max-width: 650px) {
       max-width: none;
     }
   }
 
-  strong {
-    font-weight: 700;
-    letter-spacing: .02em;
+  p + p {
+    margin-top: 25px;
   }
 
   a {
-    color: inherit;
+    color: $primary-color;
     font-weight: 700;
-    letter-spacing: .02em;
-    text-decoration: underline;
+    letter-spacing: .01em;
+    text-decoration: none;
 
     &:hover {
-      color: #fff;
+      text-decoration: underline;
     }
-  }
-
-  img {
-    display: block;
-    margin: 20px 0;
-    width: 100%;
   }
 }
