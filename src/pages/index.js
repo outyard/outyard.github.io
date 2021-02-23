@@ -11,6 +11,12 @@ export default () => (
   <Layout>
     <SEO title="Outyard - Hackathon at Uppsala University" />
 
+    <HackathonTeaser
+        id="007"
+        title="Create a game about Mars"
+        start="2021-03-06 14:00"
+        end="2021-03-07 14:00" />
+
     <Hackathon
         id="006"
         title="Create a game about darkness"

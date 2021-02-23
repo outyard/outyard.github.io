@@ -21,7 +21,7 @@ const HackathonTimer = ({start, end}) => {
 
   const now = moment();
   const duration = moment.duration(time, 's');
-  const hours = duration.hours();
+  const hours = duration.asHours();
   const startingSoon = now.isBefore(start) && hours <= 24;
   const started = now.isSameOrAfter(start) && now.isBefore(end);
   const nearlyFinished = hours < 1;
@@ -40,6 +40,7 @@ const HackathonTimer = ({start, end}) => {
     >
       <Container wide="true">
         <p className="hackathon-timer-starting-soon">
+          {!startingSoon && !started ? 'See you then!' : ''}
           {startingSoon ? 'Starting soon' : ''}
           {started && !nearlyFinished ? 'Happy hacking' : ''}
           {started && nearlyFinished ? 'Time flies' : ''}
