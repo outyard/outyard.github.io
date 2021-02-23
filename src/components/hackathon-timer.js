@@ -22,9 +22,9 @@ const HackathonTimer = ({start, end}) => {
   const now = moment();
   const duration = moment.duration(time, 's');
   const hours = duration.asHours();
-  const startingSoon = now.isBefore(start) && hours <= 24;
-  const started = now.isSameOrAfter(start) && now.isBefore(end);
-  const nearlyFinished = hours < 1;
+  const startingSoon = now.isBefore(start);
+  const started = now.isSameOrAfter(start);
+  const nearlyFinished = hours < 1 && hours > 0;
   const finished = now.isSameOrAfter(end);
 
   const timeText = duration.format('hh:mm:ss', {trim: false});
@@ -34,19 +34,19 @@ const HackathonTimer = ({start, end}) => {
       className={`
         hackathon-timer
         ${started ? 'hackathon-timer-started' : ''}
-        ${finished ? 'hackathon-timer-finished' : ''}
-        ${nearlyFinished ? 'hackathon-timer-nearly-finished' : ''}
+        ${finished || nearlyFinished ? 'hackathon-timer-nearly-finished' : ''}
       `}
     >
       <Container wide="true">
         <p className="hackathon-timer-starting-soon">
-          {!startingSoon && !started ? 'See you then!' : ''}
-          {startingSoon ? 'Starting soon' : ''}
-          {started && !nearlyFinished ? 'Happy hacking' : ''}
+          {startingSoon ? 'Starting in' : ''}
+          {started && !nearlyFinished && !finished ? 'Happy hacking' : ''}
           {started && nearlyFinished ? 'Time flies' : ''}
           {finished ? 'Time’s up! ggwp' : ''}
         </p>
-        <h1 className="hackathon-timer-time">{timeText}</h1>
+        <h1 className="hackathon-timer-time">
+	  {finished ? '00:00:00' : timeText}
+	</h1>
       </Container>
     </div>
   );

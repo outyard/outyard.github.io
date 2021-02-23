@@ -1,32 +1,28 @@
 @import 'layout';
 
 .hackathon-timer {
-  background: #fff;
+  background: #eee;
   border-left: 0;
   border-right: 0;
   color: #000;
-  padding: 15vh 0 20vh;
+  padding: 100px 0 150px;
   text-align: center;
 
   @media (max-width: $mobile-width) {
-    padding: 10vh 0 13vh;
+    padding: 75px 0 100px;
   }
 
   &-time {
     font-variant-numeric: tabular-nums;
-    font-size: 70px;
-    font-weight: 700;
-    letter-spacing: -.005em;
+    font-size: 87px;
+    font-weight: 900;
+    letter-spacing: -.01em;
     line-height: 1;
 
     @media (max-width: $mobile-width) {
-      font-size: 38px;
-      letter-spacing: 0;
+      font-size: 46px;
+      letter-spacing: -.005em;
     }
-  }
-
-  &-started {
-    color: #2b46ff;
   }
 
   &-nearly-finished {

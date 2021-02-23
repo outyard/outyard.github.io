@@ -14,7 +14,7 @@ export default ({title, author, image, video, site, download, source, descriptio
         <img className="project-media" src={image} alt="" />
       }
       {video &&
-        <video className="project-media" autoPlay={true} loop={true} muted={true} playsInline={true}>
+        <video className="project-media" autoPlay loop muted playsInline>
           <source src={video} type="video/mp4" />
         </video>
       }
