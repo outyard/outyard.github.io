@@ -14,9 +14,11 @@ export default ({title, author, image, video, site, download, source, descriptio
         <img className="project-media" src={image} alt="" />
       }
       {video &&
-        <video className="project-media" autoPlay loop muted playsInline>
-          <source src={video} type="video/mp4" />
-        </video>
+	<div dangerouslySetInnerHTML={{__html: `
+	  <video class="project-media" autoplay loop muted playsinline>
+	    <source src="${video}" type="video/mp4" />
+	  </video>
+	`}}></div>
       }
 
       <div className="project-buttons">

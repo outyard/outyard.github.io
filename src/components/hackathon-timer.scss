@@ -1,7 +1,7 @@
 @import 'layout';
 
 .hackathon-timer {
-  background: #eee;
+  background: $primary-color;
   border-left: 0;
   border-right: 0;
   color: #000;
@@ -26,7 +26,7 @@
   }
 
   &-nearly-finished {
-    color: #ff4444;
+    background: #ff4444;
   }
 
   &-status {
