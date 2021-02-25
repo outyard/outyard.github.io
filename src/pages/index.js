@@ -1,7 +1,6 @@
 import React from 'react';
 
 import Hackathon from '../components/hackathon';
-import HackathonTeaser from '../components/hackathon-teaser';
 import Layout from '../components/layout';
 import Project from '../components/project';
 import SEO from '../components/seo';
@@ -11,11 +10,13 @@ export default () => (
   <Layout>
     <SEO title="Outyard - Hackathon at Uppsala University" />
 
-    <HackathonTeaser
+    <Hackathon
+        isTeaser="true"
         id="007"
-        title="Create a game about Mars"
+        title="Create a game about the planet Mars"
         start="2021-03-06 14:00"
-        end="2021-03-07 14:00" />
+        end="2021-03-07 14:00">
+    </Hackathon>
 
     <Hackathon
         id="006"

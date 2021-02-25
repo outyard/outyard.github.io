@@ -13,16 +13,24 @@
   }
 
   &-meta {
-    color: $text-color;
+    color: #fff;
     display: block;
     font-weight: 700;
-    letter-spacing: .03em;
+    letter-spacing: .04em;
     line-height: 1.2;
-    margin: 0 0 12px;
-    text-decoration: none;
+    margin-top: -4px;
+    position: relative;
+    text-transform: lowercase;
+    z-index: 1;
 
     &-item {
-      margin-right: 1em;
+      display: inline-block;
+      margin: 0 1.35em 13px 0;
+      text-decoration: none;
+
+      @media (max-width: $mobile-width) {
+        margin: 0 .9em 13px 0;
+      }
 
       &:last-child {
         margin-right: 0;
@@ -30,44 +38,41 @@
     }
 
     &-id {
-      background: $text-color;
-      border-radius: 30px;
-      color: #000;
-      display: inline-block;
-      font-weight: 700;
-      letter-spacing: .015em;
-      margin-left: .06em;
-      margin-right: .95em;
-      padding: .3em 1em .35em;
-      text-decoration: none;
+      cursor: pointer;
 
-      @media (max-width: $mobile-width) {
-	padding: .2em .8em .3em;
-      }
-
-      &:hover {
-	background: $primary-color;
-	color: #000;
+      &-hash {
+        padding-right: .02em;
       }
     }
   }
 
   &-title {
-    color: #eee;
+    color: $text-color;
     font-size: 87px;
     font-weight: 900;
     line-height: 100px;
-    letter-spacing: -.01em;
-    text-indent: -.02em;
+    letter-spacing: -.005em;
+    margin-left: -.03em;
+    text-indent: -.05em;
+    word-spacing: .05em;
 
     @media (max-width: $mobile-width) {
       font-size: 46px;
-      letter-spacing: -.005em;
-      line-height: 59px;
+      letter-spacing: 0;
+      line-height: 60px;
+      text-indent: -.03em;
     }
   }
 
   &-projects {
+    margin-top: 70px;
+
+    @media (max-width: $mobile-width) {
+      margin-top: 45px;
+    }
+  }
+
+  &-timer-container {
     margin-top: 75px;
 
     @media (max-width: $mobile-width) {

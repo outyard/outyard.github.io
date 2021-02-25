@@ -1,13 +1,13 @@
 @import 'layout';
 
 .footer {
-  background: #eee;
+  background: #fff;
   color: #000;
   font-weight: 700;
   padding: 50px 0 200px;
 
   &-logo-wrapper {
-    margin-bottom: 47px;
+    margin-bottom: 45px;
   }
 
   &-logo-link {
@@ -17,17 +17,17 @@
   &-logo {
     display: inline-block;
     line-height: 0;
-    margin-left: 1px;
     vertical-align: top;
-    width: 89px;
+    width: 90px;
 
     @media (max-width: $mobile-width) {
-      width: 76px;
+      margin-left: .1em;
+      width: 84px;
     }
   }
 
   p + p {
-    margin-top: 12.5px;
+    margin-top: 13px;
   }
 
   &-link {

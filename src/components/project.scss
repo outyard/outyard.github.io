@@ -2,11 +2,13 @@
 
 .project {
   &-title {
+    color: $primary-color;
     font-size: 35px;
     font-style: italic;
     font-weight: 900;
     letter-spacing: .01em;
     line-height: 1.4;
+    word-spacing: .05em;
 
     @media (max-width: $mobile-width) {
       font-size: 30px;
@@ -34,19 +36,19 @@
   }
 
   p + p {
-    margin-top: 25px;
+    margin-top: 26px;
   }
 
   &-buttons {
-    margin-bottom: 25px;
+    margin-bottom: 26px;
 
     p + p {
-      margin-top: 12.5px;
+      margin-top: 13px;
     }
   }
 
   &-button {
-    color: $primary-color;
+    color: $secondary-color;
     font-weight: 700;
     letter-spacing: .01em;
     text-decoration: none;
@@ -58,12 +60,12 @@
 
   &-description {
     color: $text-color;
-    letter-spacing: .01em;
+    letter-spacing: .005em;
   }
 
   &-made-with {
-    color: #808080;
-    letter-spacing: .01em;
+    color: #999;
+    letter-spacing: .005em;
   }
 
   & + & {

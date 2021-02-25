@@ -34,7 +34,7 @@ export default ({title, author, image, video, site, download, source, descriptio
       </div>
 
       <p className="project-description">{description}</p>
-      <p className="project-made-with">Made with {tools}</p>
+      <p className="project-made-with">{tools}</p>
     </Container>
   </div>
 );
