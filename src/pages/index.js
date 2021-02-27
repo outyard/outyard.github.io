@@ -13,7 +13,7 @@ export default () => (
     <Hackathon
         isTeaser="true"
         id="007"
-        title="Create a game about the planet Mars"
+        title="Create a game about Mars"
         start="2021-03-06 14:00"
         end="2021-03-07 14:00">
     </Hackathon>

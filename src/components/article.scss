@@ -2,7 +2,7 @@
 
 .article {
   color: $text-color;
-  padding: 140px 0 150px;
+  padding: 130px 0 150px;
 
   &-title {
     color: $text-color;
@@ -35,7 +35,7 @@
   }
 
   a {
-    color: $secondary-color;
+    color: $tertiary-color;
     font-weight: 700;
     letter-spacing: .01em;
     text-decoration: none;
