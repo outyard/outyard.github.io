@@ -11,11 +11,54 @@ export default () => (
     <SEO title="Outyard - Hackathon at Uppsala University" />
 
     <Hackathon
-        isTeaser="true"
         id="007"
         title="Create a game about Mars"
         start="2021-03-06 14:00"
         end="2021-03-07 14:00">
+
+      <Project
+          title="Rover Wars"
+          author="Anton Bergåker"
+          video="/videos/rover-wars.mp4"
+          source="https://github.com/AntonBergaker/RoverWars"
+          site="https://anton.bergaker.com/rover_wars"
+	  description="Battle it out against other rovers on the red planet!"
+	  tools="GameMaker" />
+
+      <Project
+          title="Lost on Mars"
+          author="Albin Kroon"
+          video="/videos/lost-on-mars.mp4"
+          download="/files/lost-on-mars.zip"
+	  description="You are lost on Mars and need to find missing parts to rebuild your space ship."
+	  tools="Unity" />
+
+      <Project
+          title="Mars Rovering"
+          author="Jacob S."
+          video="/videos/mars-rovering.mp4"
+          site="https://jakehasradio.itch.io/mars-rovering"
+	  description="Explore Mars and plant flowers!"
+	  tools="GameMaker" />
+
+      <Project
+          title="Get the Mars"
+          author="Filip"
+          video="/videos/get-the-mars.mp4"
+          source="https://github.com/mrPaintMan/get-the-mars"
+          site="https://mrpaintman.github.io/get-the-mars/index.html"
+	  description="Gotta catch that Mars bar! A unique interpretation of the hackathon&rsquo;s theme."
+	  tools="JavaScript and Phaser" />
+
+      <Project
+          title="Flat Mars"
+          author="Carl Enlund"
+          image="/images/flat-mars.jpg"
+          download="/files/flat-mars.zip"
+          source="https://github.com/carlenlund/flat-mars"
+	  description="Control the Mars rover through a virtual screen. You work as an operator at NASA&rsquo;s Mission Control Center and suddenly an alarm goes off."
+	  tools="Unity and SteamVR" />
+
     </Hackathon>
 
     <Hackathon
