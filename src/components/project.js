@@ -23,7 +23,7 @@ export default ({title, author, image, video, site, download, source, descriptio
 
       <div className="project-buttons">
 	{site &&
-	  <p><a className="button project-button" href={site} target="_blank">Open in browser</a></p>
+	  <p><a className="button project-button" href={site} target="_blank">Play in browser</a></p>
 	}
 	{download &&
 	  <p><a className="button project-button" href={download} target="_blank">Download</a></p>
