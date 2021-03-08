@@ -46,8 +46,8 @@ const HackathonTimer = ({start, end}) => {
           {finished ? 'Time’s up! ggwp' : ''}
         </p>
         <h1 className="hackathon-timer-time">
-	  {finished ? '00:00:00' : timeText}
-	</h1>
+          {finished ? '00:00:00' : timeText}
+        </h1>
       </div>
     </Container>
   );
