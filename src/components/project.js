@@ -3,7 +3,7 @@ import React from 'react';
 import './project.scss';
 import Container from './container';
 
-export default ({title, author, image, video, site, download, source, description, tools, children}) => (
+export default ({title, author, image, video, site, download, source, description, tools, type, children}) => (
   <div className="project">
     <Container>
       <h1 className="project-title">
@@ -23,8 +23,10 @@ export default ({title, author, image, video, site, download, source, descriptio
 
       <div className="project-buttons">
 	{site &&
-	  <p><a className="button project-button" href={site} target="_blank">Play in browser</a></p>
-	}
+	  <p><a className="button project-button" href={site} target="_blank">
+       {type == 'game' ? 'Play in browser' : 'Open in browser'}
+    </a></p>
+  }
 	{download &&
 	  <p><a className="button project-button" href={download} target="_blank">Download</a></p>
 	}
