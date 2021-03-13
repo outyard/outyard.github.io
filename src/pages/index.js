@@ -61,7 +61,7 @@ export default () => (
           download="/files/flat-mars.zip"
           source="https://github.com/carlenlund/flat-mars"
           type="game"
-          description="Control the Mars rover through a virtual screen. You work as an operator at NASA&rsquo;s Mission Control Center and suddenly an alarm goes off."
+          description="Control the Mars rover in VR through a virtual screen. You work at NASA&rsquo;s Mission Control Center and suddenly an alarm goes off."
           tools="Unity and SteamVR" />
 
     </Hackathon>
