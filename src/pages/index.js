@@ -87,7 +87,7 @@ export default () => (
           download="/files/dartness.zip"
           source="https://github.com/carlenlund/dartness"
           type="game"
-          description="Play darts in the dark. In this game the player has to memorize dart board positions and throw darts after the lights go out."
+          description="Play VR darts in the dark. In this game the player has to memorize dart board positions and throw darts after the lights go out."
           tools="Unity and SteamVR" />
 
       <Project
