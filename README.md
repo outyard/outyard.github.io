@@ -6,8 +6,8 @@ Built with [Gatsby](https://www.gatsbyjs.org/).
 
 ## Development
 
-Install dependencies with `npm install`
+Install dependencies with `yarn install`
 
-Start local server with `npm start`
+Start local server with `yarn run start`
 
-Deploy to GitHub pages with `npm run deploy`
+Deploy to GitHub pages with `yarn run deploy`
