@@ -23,15 +23,17 @@ export default ({title, author, image, video, site, download, source, descriptio
 
       <div className="project-buttons">
         {site &&
-          <p><a className="button project-button" href={site} target="_blank">
-            {type == 'game' ? 'Play in browser' : 'Open in browser'}
-          </a></p>
+          <p>
+            <a className="button project-button" href={site} target="_blank" rel="noreferrer">
+              {type === 'game' ? 'Play in browser' : 'Open in browser'}
+            </a>
+          </p>
         }
         {download &&
-          <p><a className="button project-button" href={download} target="_blank">Download</a></p>
+          <p><a className="button project-button" href={download} target="_blank" rel="noreferrer">Download</a></p>
         }
         {source &&
-          <p><a className="button project-button" href={source} target="_blank">Source code</a></p>
+          <p><a className="button project-button" href={source} target="_blank" rel="noreferrer">Source code</a></p>
         }
       </div>
 

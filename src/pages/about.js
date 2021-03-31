@@ -4,8 +4,6 @@ import Layout from '../components/layout';
 import SEO from '../components/seo';
 import Article from '../components/article';
 
-import '../styles/reset.scss';
-
 export default () => (
   <Layout>
     <SEO title="Outyard - About the hackathon" />
