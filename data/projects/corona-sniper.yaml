@@ -1,0 +1,9 @@
+title: Corona Sniper
+author: Nils
+media: /media/corona-sniper.mp4
+site:
+download:
+source: https://github.com/NilsLorentzon/Outyard1
+type: game
+description: A browser gimmick used for good, this game makes you move a pop-up browser window to quickly locate and eliminate the disease. When you&rsquo;ve acquired a target through the sniper scope, click it with your mouse.
+tools: JavaScript

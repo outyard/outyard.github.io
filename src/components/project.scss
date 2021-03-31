@@ -1,0 +1,66 @@
+@import 'constants';
+
+.project {
+  &-title {
+    font-size: 24px;
+    font-weight: 900;
+    letter-spacing: .015em;
+    line-height: 1.5;
+    margin: 0 0 24px;
+    word-spacing: .07em;
+
+    sup {
+      font-size: .75em;
+    }
+  }
+
+  &-author {
+    display: block;
+    font-style: normal;
+  }
+
+  &-media {
+    margin: 0 0 28px;
+  }
+
+  p {
+    max-width: $container-width / 2 - $grid-padding;
+
+    @media (max-width: $container-width) {
+      max-width: none;
+    }
+  }
+
+  p + p {
+    margin-top: 26px;
+  }
+
+  &-buttons {
+    margin-bottom: 26px;
+
+    p + p {
+      margin-top: 0;
+    }
+  }
+
+  &-button {
+    color: $color-tertiary;
+    font-weight: 700;
+    letter-spacing: .01em;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &-description {
+    color: $color-text;
+    letter-spacing: .005em;
+  }
+
+  &-tools {
+    color: $color-small;
+    letter-spacing: .005em;
+  }
+}

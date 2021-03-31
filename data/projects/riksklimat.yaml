@@ -1,0 +1,9 @@
+title: Riksklimat
+author: Fahad & Fredrik
+media: /media/riksklimat.png
+site:
+download:
+source:
+type: app
+description: What is the Swedish government doing about the climate?
+tools: TypeScript, React Native and Expo

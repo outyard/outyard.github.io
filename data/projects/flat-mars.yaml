@@ -1,0 +1,9 @@
+title: Flat Mars
+author: Carl
+media: /media/flat-mars.jpg
+site:
+download: https://github.com/outyard/outyard.github.io/releases/download/007/flat-mars.zip
+source:
+type: game
+description: Control the Mars rover in VR through a virtual screen. You work at NASA&rsquo;s Mission Control Center and suddenly an alarm goes off.
+tools: Unity and SteamVR

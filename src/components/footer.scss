@@ -1,0 +1,31 @@
+@import 'constants';
+
+.footer {
+  color: $color-primary;
+  padding: 0 0 195px;
+
+  &-wrapper {
+    border-top: 1.5px solid;
+    max-width: $container-width / 2 - $grid-padding;
+    padding: 28px 0 0;
+
+    @media (max-width: 650px) {
+      max-width: none;
+    }
+  }
+
+  &-link {
+    display: block;
+    font-weight: 700;
+    letter-spacing: .01em;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    & + & {
+      margin: 26px 0 0;
+    }
+  }
+}

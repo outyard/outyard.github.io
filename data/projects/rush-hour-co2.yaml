@@ -1,0 +1,9 @@
+title: Rush Hour CO2
+author: Laura & Hannes
+media: /media/rush-hour-co2.png
+site:
+download:
+source: https://github.com/13hannes11/outyard-hackathon-rush-hour-co2
+type: game
+description: Vacuum the air from CO2.
+tools: Python and Pygame

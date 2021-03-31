@@ -1,0 +1,9 @@
+title: Corona in Space
+author: Albin
+media: /media/corona-in-space.png
+site:
+download:
+source:
+type: game
+description: We&rsquo;re not safe from the disease anywhere, not even in space. Inspired by the arcade classic Asteroids, you control a spaceship in order to destroy all incoming projectiles.
+tools: JavaScript and Three.js

@@ -1,0 +1,15 @@
+@import 'constants';
+
+.container {
+  box-sizing: content-box;
+  margin: 0 auto;
+  padding: 0 $container-padding;
+
+  @media (min-width: $mobile-width) {
+    max-width: $container-width;
+  }
+
+  &-wide {
+    max-width: none;
+  }
+}

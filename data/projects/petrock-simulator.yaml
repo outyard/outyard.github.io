@@ -1,0 +1,9 @@
+title: Petrock Simulator
+author: Anton
+media: /media/petrock-simulator.mp4
+site:
+download:
+source: https://github.com/outyard/Petrock-Simulator
+type: game
+description: Design your own personal petrock to strategically beat this physics-based sidescroller. The game is literally rock and roll.
+tools: GameMaker

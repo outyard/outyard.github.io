@@ -1,0 +1,9 @@
+title: Dartness
+author: Carl
+media: /media/dartness.mp4
+site:
+download: https://github.com/outyard/outyard.github.io/releases/download/006/dartness.zip
+source:
+type: game
+description: Play VR darts in the dark. In this game the player has to memorize dart board positions and throw darts after the lights go out.
+tools: Unity and SteamVR

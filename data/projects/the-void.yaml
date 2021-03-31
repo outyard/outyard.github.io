@@ -1,0 +1,9 @@
+title: The Void
+author: Nils
+media: /media/the-void.mp4
+site:
+download:
+source: https://github.com/outyard/outyard.github.io/releases/download/006/the-void-source-code.zip
+type: game
+description: Black holes, planets and gravitation. What could possibly go wrong?
+tools: Python and Pygame

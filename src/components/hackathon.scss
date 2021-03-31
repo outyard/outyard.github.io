@@ -1,0 +1,61 @@
+@import 'constants';
+
+.hackathon {
+  &-header {
+    padding: 0 0 65px;
+    position: relative;
+  }
+
+  &-meta {
+    color: $color-secondary;
+    display: block;
+    font-weight: 700;
+    letter-spacing: .01em;
+    line-height: 1.2;
+    margin-left: -.02em;
+    position: relative;
+    text-transform: lowercase;
+    z-index: 1;
+
+    &-item {
+      display: inline-block;
+      margin: 0 1em 9px 0;
+      text-decoration: none;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    &-id {
+      letter-spacing: .05em;
+    }
+
+    &-id-hash {
+      padding-right: .02em;
+    }
+  }
+
+  &-title {
+    font-size: 46px;
+    font-weight: 900;
+    line-height: 58px;
+    margin-left: -.035em;
+    text-indent: -.03em;
+    word-spacing: .06em;
+
+    &-inner {
+      border-bottom: 4px solid;
+    }
+  }
+
+  &-projects {
+    margin-top: 35px;
+  }
+
+  &-project {
+    & + & {
+      margin-top: 100px;
+    }
+  }
+}

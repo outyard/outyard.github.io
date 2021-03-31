@@ -1,0 +1,58 @@
+@import 'constants';
+
+.navbar {
+  margin-top: 40px;
+  position: relative;
+
+  &-wrapper {
+    background: $color-background;
+    overflow: hidden;
+    padding: 30px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+  }
+
+  &-nav {
+    margin: 0 0 0 auto;
+
+    &-link {
+      color: $color-primary;
+      font-weight: 700;
+      letter-spacing: .01em;
+      margin-right: 2.3em;
+      position: relative;
+      text-decoration: none;
+      top: -3px;
+
+      &:last-of-type {
+        margin-right: 0;
+      }
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    &-logo {
+      margin-right: 1.9em;
+      top: 0;
+
+      &-image {
+        display: inline-block;
+        text-decoration: none;
+        vertical-align: top;
+        width: 84px;
+      }
+    }
+
+    &-logo-wrapper {
+      float: left;
+    }
+
+    &-links {
+      float: right;
+    }
+  }
+}

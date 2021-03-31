@@ -1,0 +1,9 @@
+title: Water Game
+author: Carl
+media: /media/water-game.mp4
+site:
+download:
+source:
+type: game
+description: Agar.io but it&rsquo;s in 3D and underwater. In this multiplayer game you absorb other players to become as big as possible.
+tools: NodeJS, A-Frame and Socket.IO

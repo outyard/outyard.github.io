@@ -1,0 +1,9 @@
+title: Corona Shooter
+author: Jonas
+media: /media/corona-shooter.jpg
+site:
+download:
+source:
+type: game
+description: Don&rsquo;t let the virus get to you! Jump, dash and shoot to survive as long as possible, avoiding the swarm of incoming virus particles.
+tools: JavaScript and p5.js
