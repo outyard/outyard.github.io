@@ -1,0 +1,9 @@
+title: LEGO Bomberman
+author: Carl
+media: /media/lego-bomberman.png
+site:
+download: https://github.com/outyard/outyard.github.io/releases/download/010/lego-bomberman.zip
+source:
+type: game
+description: An experimental mashup of the LEGO® genre of games and the classic arcade game Bomberman. Play online with your friends!
+tools: Unity and NodeJS

@@ -1,0 +1,9 @@
+title: Suez Control
+author: Filip & Måns
+media: /media/suez-control.mp4
+site: https://mrpaintman.github.io/suez-control/
+download:
+source: https://github.com/mrPaintMan/suez-control
+type: game
+description: A simple Phaser game based of the iOS game Flight Control.
+tools: JavaScript and Phaser

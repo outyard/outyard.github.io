@@ -1,0 +1,56 @@
+@import 'constants';
+
+* {
+  box-sizing: border-box;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  // Uses manual crops for different screen sizes,
+  // so that we only crop into good parts of the image.
+  background: linear-gradient(#24272f80, $color-background), url(/media/outyard/hackathon-irl-3-crop-2.jpg), $color-background;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 0 80px;
+  color: $color-text;
+  height: 120vw;
+  font-family: 'neue-haas-unica', sans-serif;
+  font-size: 17px;
+  font-variant-numeric: proportional-nums;
+  line-height: 26px;
+  text-shadow: 0 .05em .2em $color-background;
+
+  @media (min-width: (0.7*$mobile-width)) {
+    background: linear-gradient(#24272f80, $color-background), url(/media/outyard/hackathon-irl-3-crop-3.jpg), $color-background;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 80px;
+    height: 67vw;
+  }
+
+  @media (min-width: $mobile-width) {
+    background: linear-gradient(#24272f80, $color-background), url(/media/outyard/hackathon-irl-3-crop-1.jpg), $color-background;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 80px;
+    height: 47vw;
+  }
+
+  @media (min-width: (1.5*$mobile-width)) {
+    height: 50vw;
+  }
+}
+
+a {
+  color: inherit;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.emoji {
+  font-style: normal;
+}

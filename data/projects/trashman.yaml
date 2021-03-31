@@ -1,0 +1,9 @@
+title: Trashman
+author: Simon, Sebastian & Axel
+media: /media/trashman.png
+site:
+download: https://github.com/SimonDamberg/trashman-outyard/releases
+source: https://github.com/SimonDamberg/trashman-outyard
+type: game
+description: Pick up trash &ndash; &rsquo;nuff said.
+tools: Godot

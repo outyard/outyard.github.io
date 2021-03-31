@@ -1,0 +1,36 @@
+@import 'constants';
+
+.hackathon-timer {
+  background: $color-primary;
+  border-radius: 5px;
+  color: $color-background;
+  margin: 45px 0 0;
+  padding: 75px 0 95px;
+  text-align: center;
+
+  &-started {
+    background: $color-secondary;
+  }
+
+  &-nearly-finished {
+    background: $color-tertiary;
+  }
+
+  &-finished {
+    background: $color-tertiary;
+  }
+
+  &-status {
+    font-weight: 700;
+    letter-spacing: .01em;
+    line-height: 1.2;
+    margin-bottom: 9px;
+  }
+
+  &-time {
+    font-size: 46px;
+    font-variant-numeric: tabular-nums;
+    font-weight: 900;
+    line-height: 60px;
+  }
+}

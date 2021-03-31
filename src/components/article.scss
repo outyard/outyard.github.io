@@ -1,0 +1,48 @@
+@import 'constants';
+
+.article {
+  color: $color-text;
+  padding: 150px 0;
+
+  &-title {
+    color: $color-text;
+    font-size: 30px;
+    font-weight: 900;
+    letter-spacing: .015em;
+    line-height: 1.45;
+    margin-bottom: 30px;
+    max-width: 400px;
+    word-spacing: .05em;
+  }
+
+  p {
+    letter-spacing: .005em;
+    max-width: $container-width / 2 - $grid-padding;
+
+    @media (max-width: 650px) {
+      max-width: none;
+    }
+  }
+
+  p + p {
+    margin-top: 26px;
+  }
+
+  a {
+    color: $color-tertiary;
+    font-weight: 700;
+    letter-spacing: .01em;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  img {
+    border-radius: 8px;
+    display: block;
+    margin: 28px 0;
+    width: 100%;
+  }
+}

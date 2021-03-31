@@ -1,0 +1,9 @@
+title: Hand
+author: Carl
+media: /media/hand.mp4
+site:
+download:
+source:
+type: game
+description: Practice social distancing in this webcam-based dodge-the-bullets game. If you catch too many virus particles, the game is over.
+tools: JavaScript and Handtrack.js

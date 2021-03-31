@@ -1,0 +1,9 @@
+title: Sisyphus Bubble Popper VR
+author: Jacob
+media: /media/sisyphus-bubble-popper-vr.mp4
+site:
+download: https://github.com/outyard/outyard.github.io/releases/download/006/sisyphus-bubble-popper-vr.zip
+source:
+type: game
+description: Pop bubbles with your candles, but the game is over if you let both flames go out.
+tools: Lua and LÖVR

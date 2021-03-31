@@ -1,0 +1,9 @@
+title: Zombie Invasion
+author: Anton
+media: /media/zombie-invasion.mp4
+site:
+download:
+source: https://github.com/outyard/zombie-invasion
+type: game
+description: A zombie shooting game where one player fights hordes of zombies strategically placed by a second player. The first player plays the game using an Xbox controller, and the second player uses a smartphone to place the zombies.
+tools: GameMaker

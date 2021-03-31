@@ -1,0 +1,9 @@
+title: Magnet Fishing
+author: Jonas
+media: /media/magnet-fishing.mp4
+site:
+download:
+source:
+type: game
+description: Fish using magnets! Uses fish simulations with mathematical models inspired by nature.
+tools: Godot
