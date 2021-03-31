@@ -1,0 +1,42 @@
+@import 'layout';
+
+.hackathon-timer {
+  border: 4px solid;
+  color: $tertiary-color;
+  padding: 35px 0 75px;
+  text-align: center;
+
+  @media (max-width: $mobile-width) {
+    padding: 35px 0 60px;
+  }
+
+  &-time {
+    font-size: 87px;
+    font-variant-numeric: tabular-nums;
+    font-weight: 900;
+    letter-spacing: -.005em;
+    line-height: 102px;
+
+    @media (max-width: $mobile-width) {
+      font-size: 46px;
+      letter-spacing: 0;
+      line-height: 60px;
+    }
+  }
+
+  &-started {
+    color: $secondary-color;
+  }
+
+  &-nearly-finished {
+    color: $tertiary-color;
+  }
+
+  &-finished {
+    color: $tertiary-color;
+  }
+
+  &-status {
+    margin-bottom: 10px;
+  }
+}

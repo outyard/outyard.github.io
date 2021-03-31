@@ -1,0 +1,47 @@
+@import 'layout';
+
+.article {
+  color: $text-color;
+  padding: 130px 0 150px;
+
+  &-title {
+    color: $text-color;
+    font-size: 35px;
+    font-weight: 900;
+    letter-spacing: .01em;
+    line-height: 1.4;
+    margin-bottom: 50px;
+    max-width: 400px;
+    word-spacing: .05em;
+
+    @media (max-width: $mobile-width) {
+      font-size: 30px;
+      letter-spacing: .015em;
+      line-height: 1.45;
+    }
+  }
+
+  p {
+    letter-spacing: .005em;
+    max-width: 400px;
+
+    @media (max-width: 650px) {
+      max-width: none;
+    }
+  }
+
+  p + p {
+    margin-top: 26px;
+  }
+
+  a {
+    color: $tertiary-color;
+    font-weight: 700;
+    letter-spacing: .01em;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}

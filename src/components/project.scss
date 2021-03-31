@@ -1,0 +1,78 @@
+@import 'layout';
+
+.project {
+  &-title {
+    color: $primary-color;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: .01em;
+    line-height: 1.4;
+    word-spacing: .05em;
+
+    @media (max-width: $mobile-width) {
+      font-size: 30px;
+      letter-spacing: .015em;
+      line-height: 1.45;
+    }
+  }
+
+  &-author {
+    font-style: normal;
+  }
+
+  &-media {
+    display: block;
+    margin: 30px 0;
+    width: 100%;
+  }
+
+  p {
+    max-width: 400px;
+
+    @media (max-width: 650px) {
+      max-width: none;
+    }
+  }
+
+  p + p {
+    margin-top: 26px;
+  }
+
+  &-buttons {
+    margin-bottom: 26px;
+
+    p + p {
+      margin-top: 13px;
+    }
+  }
+
+  &-button {
+    color: $tertiary-color;
+    font-weight: 700;
+    letter-spacing: .01em;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  &-description {
+    color: $text-color;
+    letter-spacing: .005em;
+  }
+
+  &-made-with {
+    color: #999;
+    letter-spacing: .005em;
+  }
+
+  & + & {
+    margin-top: 150px;
+
+    @media (max-width: $mobile-width) {
+      margin-top: 100px;
+    }
+  }
+}

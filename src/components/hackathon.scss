@@ -1,0 +1,82 @@
+@import 'layout';
+
+.hackathon {
+  padding: 0 0 0;
+
+  &:last-child {
+    padding: 0 0 150px;
+  }
+
+  &-header {
+    padding: 150px 0 70px;
+    position: relative;
+  }
+
+  &-meta {
+    color: $secondary-color;
+    display: block;
+    font-weight: 700;
+    letter-spacing: .04em;
+    line-height: 1.2;
+    margin-top: -4px;
+    position: relative;
+    text-transform: lowercase;
+    z-index: 1;
+
+    &-item {
+      display: inline-block;
+      margin: 0 1.35em 13px 0;
+      text-decoration: none;
+
+      @media (max-width: $mobile-width) {
+        margin: 0 .9em 13px 0;
+      }
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+
+    &-id {
+      cursor: pointer;
+
+      &-hash {
+        padding-right: .02em;
+      }
+    }
+  }
+
+  &-title {
+    color: $text-color;
+    font-size: 87px;
+    font-weight: 900;
+    line-height: 100px;
+    letter-spacing: -.005em;
+    margin-left: -.03em;
+    text-indent: -.05em;
+    word-spacing: .05em;
+
+    @media (max-width: $mobile-width) {
+      font-size: 46px;
+      letter-spacing: 0;
+      line-height: 60px;
+      text-indent: -.03em;
+    }
+  }
+
+  &-projects {
+    margin-top: 70px;
+
+    @media (max-width: $mobile-width) {
+      margin-top: 45px;
+    }
+  }
+
+  &-timer-container {
+    margin-top: 75px;
+
+    @media (max-width: $mobile-width) {
+      margin-top: 50px;
+    }
+  }
+}

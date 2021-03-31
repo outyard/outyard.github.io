@@ -1,0 +1,31 @@
+$mobile-width: 850px;
+$primary-color: #65aaff;
+$secondary-color: #ffc966;
+$tertiary-color: #ff7354;
+$text-color: #eee;
+
+body {
+  background: #fff;
+  color: #000;
+  font-family: 'neue-haas-unica', sans-serif;
+  font-size: 17px;
+  font-variant-numeric: proportional-nums;
+  line-height: 26px;
+}
+
+a {
+  color: inherit;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.emoji {
+  font-style: normal;
+}
+
+.main {
+  background: #1b1b1b;
+  color: $text-color;
+}
