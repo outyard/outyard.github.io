@@ -11,6 +11,14 @@ export default () => (
     <SEO title="Outyard - Hackathon at Uppsala University" />
 
     <Hackathon
+        isTeaser={true}
+        id="008"
+        title="Create a game about water"
+        start="2021-04-10 14:00"
+        end="2021-04-11 14:00">
+    </Hackathon>
+
+    <Hackathon
         id="007"
         title="Create a game about Mars"
         start="2021-03-06 14:00"
