@@ -26,6 +26,7 @@ const HackathonTimer = ({start, end}) => {
   const started = now.isAfter(start);
   const finished = started && hours <= 0;
   const nearlyFinished = hours < 1 && hours >= 0 && !finished;
+  const nearlyStarted = hours < 1 && hours >= 0 && !started;
 
   const timeText = duration.format('hh:mm:ss', {trim: false});
 
@@ -35,7 +36,7 @@ const HackathonTimer = ({start, end}) => {
         className={`
           hackathon-timer
           ${started ? 'hackathon-timer-started' : ''}
-          ${nearlyFinished ? 'hackathon-timer-nearly-finished' : ''}
+          ${nearlyFinished || nearlyStarted ? 'hackathon-timer-nearly-finished' : ''}
           ${finished ? 'hackathon-timer-finished' : ''}
         `}
       >
