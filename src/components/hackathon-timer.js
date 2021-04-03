@@ -16,7 +16,8 @@ export default ({start, end}) => {
     const difference = started
         ? moment(end).diff(now, 's')
         : moment(start).diff(now, 's');
-    setTime(difference);
+    const time = Math.max(difference, 0);
+    setTime(time);
   }, 500);
 
   const now = moment();
@@ -29,17 +30,18 @@ export default ({start, end}) => {
   const nearlyStarted = hours < 1 && hours >= 0 && !started;
 
   const timeText = duration.format('hh:mm:ss', {trim: false});
+  const [timeHours, timeMinutes, timeSeconds] = timeText.split(':');
 
   return (
     <Container>
       <div
-        className={`
-          hackathon-timer
-          ${started ? 'hackathon-timer-started' : ''}
-          ${nearlyFinished || nearlyStarted ? 'hackathon-timer-nearly-finished' : ''}
-          ${finished ? 'hackathon-timer-finished' : ''}
-        `}
-      >
+          className={`
+            hackathon-timer
+            ${started ? 'hackathon-timer-started' : ''}
+            ${nearlyFinished || nearlyStarted ? 'hackathon-timer-nearly-finished' : ''}
+            ${finished ? 'hackathon-timer-finished' : ''}
+          `}
+          >
         <p className="hackathon-timer-status">
           {startingSoon ? 'Starting in' : ''}
           {started && !nearlyFinished && !finished ? 'Happy hacking' : ''}
@@ -47,7 +49,9 @@ export default ({start, end}) => {
           {finished ? 'Time’s up! ggwp' : ''}
         </p>
         <h1 className="hackathon-timer-time">
-          {finished ? '00:00:00' : timeText}
+          {timeHours}<span className="hackathon-timer-time-colon">:</span>{/*
+          */}{timeMinutes}<span className="hackathon-timer-time-colon">:</span>{/*
+          */}{timeSeconds}
         </h1>
       </div>
     </Container>

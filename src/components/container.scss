@@ -1,8 +1,9 @@
-@import 'layout';
+@import 'constants';
 
 .container {
+  box-sizing: content-box;
   margin: 0 auto;
-  max-width: 950px;
+  max-width: $container-width;
   padding: 0 40px;
 
   @media (max-width: $mobile-width) {

@@ -1,4 +1,4 @@
-@import 'layout';
+@import 'constants';
 
 .article {
   color: $text-color;
@@ -23,7 +23,7 @@
 
   p {
     letter-spacing: .005em;
-    max-width: 400px;
+    max-width: $container-width / 2 - $grid-padding;
 
     @media (max-width: 650px) {
       max-width: none;
@@ -35,7 +35,7 @@
   }
 
   a {
-    color: $tertiary-color;
+    color: $primary-color;
     font-weight: 700;
     letter-spacing: .01em;
     text-decoration: none;

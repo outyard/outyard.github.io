@@ -10,12 +10,19 @@ import Project from './project.js';
 
 momentDurationFormatSetup(moment);
 
-export default ({id, title, start, end, isTeaser, projects}) => {
+export default ({
+  id,
+  title,
+  start,
+  end,
+  isTeaser,
+  projects,
+}) => {
   const date = moment(start).format("D MMM YYYY");
   const total = moment(end).diff(start, 'h');
 
   return (
-    <div className="hackathon">
+    <div className={'hackathon' + (isTeaser ? ' hackathon-teaser' : '')}>
       <div className="hackathon-header">
         <Container>
           <div className="hackathon-meta">

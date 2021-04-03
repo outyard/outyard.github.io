@@ -1,4 +1,4 @@
-@import 'layout';
+@import 'constants';
 
 .hackathon {
   &-header {
@@ -18,11 +18,11 @@
 
     &-item {
       display: inline-block;
-      margin: 0 1.35em 13px 0;
+      margin: 0 1.5em 14px 0;
       text-decoration: none;
 
       @media (max-width: $mobile-width) {
-        margin: 0 .9em 13px 0;
+        margin: 0 1em 9px 0;
       }
 
       &:last-child {
@@ -39,7 +39,7 @@
     color: $text-color;
     font-size: 87px;
     font-weight: 900;
-    line-height: 100px;
+    line-height: 105px;
     letter-spacing: -.005em;
     margin-left: -.03em;
     text-indent: -.05em;
@@ -48,7 +48,7 @@
     @media (max-width: $mobile-width) {
       font-size: 46px;
       letter-spacing: 0;
-      line-height: 60px;
+      line-height: 58px;
       text-indent: -.03em;
     }
   }

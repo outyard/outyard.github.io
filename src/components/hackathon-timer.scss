@@ -1,13 +1,30 @@
-@import 'layout';
+@import 'constants';
 
 .hackathon-timer {
-  border: 4px solid;
+  border: 3.5px solid;
+  border-radius: 5px;
   color: $secondary-color;
-  padding: 35px 0 75px;
+  padding: 30px 0 70px;
   text-align: center;
 
   @media (max-width: $mobile-width) {
-    padding: 35px 0 60px;
+    padding: 30px 0 65px;
+  }
+
+  &-started {
+    color: $secondary-color;
+  }
+
+  &-nearly-finished {
+   color: $tertiary-color;
+  }
+
+  &-finished {
+    color: $tertiary-color;
+  }
+
+  &-status {
+    margin-bottom: 10px;
   }
 
   &-time {
@@ -22,21 +39,12 @@
       letter-spacing: 0;
       line-height: 60px;
     }
-  }
 
-  &-started {
-    color: $secondary-color;
-  }
-
-  &-nearly-finished {
-    color: $tertiary-color;
-  }
-
-  &-finished {
-    color: $tertiary-color;
-  }
-
-  &-status {
-    margin-bottom: 10px;
+    &-colon {
+      font-weight: 400;
+      padding: 0 .15em;
+      position: relative;
+      top: -.07em;
+    }
   }
 }

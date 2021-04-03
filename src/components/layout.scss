@@ -1,8 +1,4 @@
-$mobile-width: 850px;
-$primary-color: #65aaff;
-$secondary-color: #ffc966;
-$tertiary-color: #ff7354;
-$text-color: #eee;
+@import 'constants';
 
 * {
   box-sizing: border-box;
@@ -33,6 +29,6 @@ a {
 }
 
 .main {
-  background: #1b1b1b;
+  background: #1c1c1c;
   color: $text-color;
 }
