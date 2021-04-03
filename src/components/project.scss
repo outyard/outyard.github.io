@@ -2,18 +2,18 @@
 
 .project {
   &-title {
-    color: $tertiary-color;
+    color: $primary-color;
     font-size: 35px;
     font-style: italic;
     font-weight: 900;
     letter-spacing: .01em;
-    line-height: 1.4;
+    line-height: 1.45;
     word-spacing: .07em;
 
     @media (max-width: $mobile-width) {
       font-size: 30px;
       letter-spacing: .015em;
-      line-height: 1.45;
+      line-height: 1.5;
     }
   }
 
@@ -46,7 +46,7 @@
   }
 
   &-button {
-    color: $primary-color;
+    color: $tertiary-color;
     font-weight: 700;
     letter-spacing: .01em;
     text-decoration: none;
