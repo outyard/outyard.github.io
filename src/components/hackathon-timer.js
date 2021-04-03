@@ -38,7 +38,7 @@ export default ({start, end}) => {
           className={`
             hackathon-timer
             ${started ? 'hackathon-timer-started' : ''}
-            ${nearlyFinished || nearlyStarted ? 'hackathon-timer-nearly-finished' : ''}
+            ${nearlyFinished || !started ? 'hackathon-timer-nearly-finished' : ''}
             ${finished ? 'hackathon-timer-finished' : ''}
           `}
           >
