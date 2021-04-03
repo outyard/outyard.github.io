@@ -73,9 +73,6 @@ export default () => {
   return (
     <Layout>
       <Meta title="Outyard - Hackathon at Uppsala University" />
-      <Helmet>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-      </Helmet>
       <div className="hackathon-list">
         {allHackathonsYaml.nodes
             .slice()
