@@ -10,7 +10,7 @@ export default () => (
       <div className="footer-wrapper">
         <div className="footer-logo-wrapper">
           <Link to="/" className="footer-logo-link">
-            <img className="footer-logo" src="/images/logo-black.svg" alt="" />
+            <img className="footer-logo" src="/media/outyard/logo-black.svg" alt="" />
           </Link>
         </div>
         <div className="footer-links">

@@ -12,7 +12,7 @@ export default () => (
         <nav className="header-nav">
           <div className="header-nav-links">
             <Link className="header-nav-link header-nav-logo" to="/">
-              <img className="header-nav-logo-image" src="/images/logo-cyan.svg" alt="Outyard" />
+              <img className="header-nav-logo-image" src="/media/outyard/logo-cyan.svg" alt="Outyard" />
             </Link>
             <a className="header-nav-link" href="https://discord.gg/bdh9Sax9" target="_blank" rel="noreferrer">Discord</a>
             <Link className="header-nav-link" to="/about">About</Link>
