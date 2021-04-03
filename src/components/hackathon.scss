@@ -6,11 +6,8 @@
     position: relative;
   }
 
-  &-teaser &-header {
-    padding: 0 0 0;
-  }
-
   &-meta {
+    color: $secondary-color;
     display: block;
     font-weight: 700;
     letter-spacing: .03em;
