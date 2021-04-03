@@ -54,6 +54,7 @@ export default () => {
 
       <div className="hackathon-list">
         {allHackathonsYaml.nodes
+            .slice()
             .reverse()
             .map((hackathon) =>
               <div key={hackathon.id} className="hackathon-list-item">
