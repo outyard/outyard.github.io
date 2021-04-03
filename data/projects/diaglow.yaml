@@ -1,0 +1,6 @@
+title: Diaglow
+author: Albin Kroon
+image: /images/diaglow.png
+type: game
+description: A horde of monsters are hiding in the dark. Luckily you&rsquo;re armed with a powerful flashlight.
+tools: Python and Pygame

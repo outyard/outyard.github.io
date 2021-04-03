@@ -3,7 +3,7 @@ import React from 'react';
 import './project.scss';
 import Container from './container';
 
-export default ({title, author, image, video, site, download, source, description, tools, type, children}) => (
+export default ({title, author, image, video, site, download, source, description, tools, type}) => (
   <div className="project">
     <Container>
       <h1 className="project-title">

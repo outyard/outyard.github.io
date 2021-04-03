@@ -5,10 +5,11 @@ import momentDurationFormatSetup from 'moment-duration-format';
 import './hackathon.scss';
 import Container from './container';
 import HackathonTimer from './hackathon-timer';
+import Project from './project';
 
 momentDurationFormatSetup(moment);
 
-const Hackathon = ({id, title, start, end, isTeaser, children}) => {
+const Hackathon = ({id, title, start, end, isTeaser, projects}) => {
   const date = moment(start).format("D MMM YYYY");
   const total = moment(end).diff(start, 'h');
 
@@ -31,9 +32,24 @@ const Hackathon = ({id, title, start, end, isTeaser, children}) => {
         </div>
       }
 
-      {children &&
+      {projects &&
         <div className="hackathon-projects">
-          {children}
+          {projects.map((project) =>
+            <div key={project.id} className="hackathon-project">
+              <Project
+                  title={project.title}
+                  author={project.author}
+                  image={project.image}
+                  video={project.video}
+                  site={project.site}
+                  download={project.download}
+                  source={project.source}
+                  description={project.description}
+                  tools={project.tools}
+                  type={project.type}
+                  />
+            </div>
+          )}
         </div>
       }
     </div>

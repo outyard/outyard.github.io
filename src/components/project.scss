@@ -67,12 +67,4 @@
     color: #999;
     letter-spacing: .005em;
   }
-
-  & + & {
-    margin-top: 150px;
-
-    @media (max-width: $mobile-width) {
-      margin-top: 100px;
-    }
-  }
 }

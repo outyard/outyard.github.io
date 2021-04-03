@@ -1,0 +1,7 @@
+title: Corona Shooter
+author: Jonas Nygren
+image: /images/corona-shooter.jpg
+site: https://editor.p5js.org/full/BItscBW3m
+type: game
+description: Don&rsquo;t let the virus get to you! Jump, dash and shoot to survive as long as possible, avoiding the swarm of incoming virus particles.
+tools: JavaScript and p5.js

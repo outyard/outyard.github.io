@@ -72,6 +72,16 @@
     }
   }
 
+  &-project {
+    & + & {
+      margin-top: 150px;
+  
+      @media (max-width: $mobile-width) {
+        margin-top: 100px;
+      }
+    }
+  }
+
   &-timer-container {
     margin-top: 75px;
 

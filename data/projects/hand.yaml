@@ -1,0 +1,8 @@
+title: Hand
+author: Carl Enlund
+video: /videos/hand.mp4
+site: https://outyard.github.io/hand/
+source: https://github.com/outyard/hand
+type: game
+description: Practice social distancing in this webcam-based dodge-the-bullets game. If you catch too many virus particles, the game is over.
+tools: JavaScript and Handtrack.js
