@@ -1,24 +1,20 @@
 import React from 'react';
 
 import './project.scss';
-import Container from './container';
+import Container from './container.js';
+import Media from './media.js';
 
-export default ({title, author, image, video, site, download, source, description, tools, type}) => (
+export default ({title, author, media, site, download, source, description, tools, type}) => (
   <div className="project">
     <Container>
       <h1 className="project-title">
         {title} <span className="project-author">by {author}</span>
       </h1>
 
-      {image &&
-        <img className="project-media" src={image} alt="" />
-      }
-      {video &&
-        <div dangerouslySetInnerHTML={{__html: `
-          <video class="project-media" autoplay loop muted playsinline>
-            <source src="${video}" type="video/mp4" />
-          </video>
-        `}}></div>
+      {media &&
+        <div className="project-media">
+          <Media url={media} />
+        </div>
       }
 
       <div className="project-buttons">
@@ -37,8 +33,10 @@ export default ({title, author, image, video, site, download, source, descriptio
         }
       </div>
 
-      <p className="project-description">{description}</p>
-      <p className="project-made-with">{tools}</p>
+      <p className="project-description" dangerouslySetInnerHTML={{__html: `
+        ${description}
+      `}}></p>
+      <p className="project-tools">{tools}</p>
     </Container>
   </div>
 );

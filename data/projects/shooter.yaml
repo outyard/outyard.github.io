@@ -1,7 +1,8 @@
 title: Shooter
 author: Carl Enlund
-image: /images/shooter.png
+media: /media/shooter.png
 site: https://outyardshooter.herokuapp.com
+download:
 source: https://github.com/outyard/shooter
 type: game
 description: A web-based first-person shooter where the players fight eachother to see who first scores 10 points. The game contains 5 unique maps which are cycled through after each win.

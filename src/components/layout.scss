@@ -4,6 +4,13 @@ $secondary-color: #ffc966;
 $tertiary-color: #ff7354;
 $text-color: #eee;
 
+* {
+  box-sizing: border-box;
+  font: inherit;
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background: #fff;
   color: #000;

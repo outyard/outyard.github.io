@@ -1,9 +1,8 @@
 import React from 'react';
 
-import Header from './header';
-import Footer from './footer';
-import '../styles/reset.scss';
 import './layout.scss';
+import Header from './header.js';
+import Footer from './footer.js';
 
 export default ({children}) => (
   <>

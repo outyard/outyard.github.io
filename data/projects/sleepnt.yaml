@@ -1,7 +1,9 @@
 title: Sleepn&rsquo;t
 author: Carl Enlund
-video: /videos/sleepnt.mp4
+media: /media/sleepnt.mp4
+site:
 download: https://github.com/outyard/sleepnt/releases/download/0.1/sleepnt-0.1.zip
 source: https://github.com/outyard/sleepnt/
+type: game
 description: Survive as long as possible in this VR horror game. You wake up in the middle of the night standing on your bed with a camera in your hand as you see a man floating towards you from a distance.
 tools: Unity

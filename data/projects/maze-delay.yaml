@@ -1,7 +1,8 @@
 title: Maze Delay
 author: Arvid Sandin
-image: /images/maze-delay.png
+media: /media/maze-delay.png
 site: https://outyard.github.io/maze-delay/
+download:
 source: https://github.com/outyard/maze-delay
 type: game
 description: A top-down maze game with a twist... Every move you make is delayed by half a second, and touching the walls equals losing.

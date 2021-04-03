@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Layout from '../components/layout';
-import SEO from '../components/seo';
-import Article from '../components/article';
+import Layout from '../components/layout.js';
+import Meta from '../components/meta.js';
+import Article from '../components/article.js';
 
 export default () => (
   <Layout>
-    <SEO title="Outyard - About the hackathon" />
+    <Meta title="Outyard - About the hackathon" />
 
     <Article title="About Outyard">
       <p>Outyard is a hackathon at Uppsala University. The hackathon is meant to inspire personal projects and is a great way to learn programming.</p>

@@ -1,9 +1,10 @@
 import React from 'react';
 import {useStaticQuery, graphql} from 'gatsby';
 
-import Hackathon from '../components/hackathon';
-import Layout from '../components/layout';
-import SEO from '../components/seo';
+import './index.scss';
+import Hackathon from '../components/hackathon.js';
+import Layout from '../components/layout.js';
+import Meta from '../components/meta.js';
 
 export default () => {
   const {
@@ -31,12 +32,12 @@ export default () => {
           author
           description
           download
+          media
           site
           source
           title
           tools
           type
-          video
           parent {
             ... on File {
               name
@@ -46,10 +47,10 @@ export default () => {
       }
     }
   `);
-debugger;
+
   return (
     <Layout>
-      <SEO title="Outyard - Hackathon at Uppsala University" />
+      <Meta title="Outyard - Hackathon at Uppsala University" />
 
       <div className="hackathon-list">
         {allHackathonsYaml.nodes

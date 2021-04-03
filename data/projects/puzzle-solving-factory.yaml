@@ -1,7 +1,9 @@
 title: Puzzle Solving Factory
 author: Jacob S.
-video: /videos/puzzle-solving-factory.mp4
+media: /media/puzzle-solving-factory.mp4
+site:
 download: https://github.com/outyard/outyard.github.io/releases/download/004/puzzle-solving-factory.zip
+source:
 type: game
 description: Why sleep when you can spend the night solving puzzles? Help the factory worker stay alert and survive through his tough working conditions by utilizing the classic &ldquo;arm shake&rdquo;.
 tools: GameMaker

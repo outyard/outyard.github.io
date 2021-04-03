@@ -3,11 +3,11 @@ import moment from 'moment';
 import momentDurationFormatSetup from 'moment-duration-format';
 
 import './hackathon-timer.scss';
-import Container from './container';
+import Container from './container.js';
 
 momentDurationFormatSetup(moment);
 
-const HackathonTimer = ({start, end}) => {
+export default ({start, end}) => {
   const [time, setTime] = useState(0);
 
   useInterval(() => {
@@ -72,5 +72,3 @@ const useInterval = (callback, delay) => {
     }
   }, [delay]);
 };
-
-export default HackathonTimer;

@@ -1,8 +1,9 @@
 title: Get the Mars
 author: Filip
-video: /videos/get-the-mars.mp4
-source: https://github.com/mrPaintMan/get-the-mars
+media: /media/get-the-mars.mp4
 site: https://mrpaintman.github.io/get-the-mars/index.html
+download:
+source: https://github.com/mrPaintMan/get-the-mars
 type: game
 description: Gotta catch that Mars bar! A unique interpretation of the hackathon&rsquo;s theme.
 tools: JavaScript and Phaser

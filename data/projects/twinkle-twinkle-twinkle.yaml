@@ -1,7 +1,8 @@
 title: Twinkle, Twinkle, Twinkle
 author: Carl Enlund
-image: /images/twinkle-twinkle-twinkle.png
+media: /media/twinkle-twinkle-twinkle.png
 site: https://outyard.github.io/twinkle-twinkle-twinkle/
+download:
 source: https://github.com/outyard/twinkle-twinkle-twinkle
 type: app
 description: Twinkle, Twinkle, Little Star, but there&rsquo;s more&hellip;

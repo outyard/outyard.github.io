@@ -1,12 +1,12 @@
 import React from 'react';
 
-import Layout from '../components/layout';
-import SEO from '../components/seo';
-import Article from '../components/article';
+import Layout from '../components/layout.js';
+import Meta from '../components/meta.js';
+import Article from '../components/article.js';
 
 export default () => (
   <Layout>
-    <SEO title="Outyard - Page not found" />
+    <Meta title="Outyard - Page not found" />
     <Article title="Page not found">
     </Article>
   </Layout>

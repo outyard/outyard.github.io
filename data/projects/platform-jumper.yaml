@@ -1,5 +1,9 @@
 title: Platform Jumper
 author: Peter Öhlmér
+media:
+site:
+download:
+source:
 type: game
 description: In this game you jump on platforms falling down from the sky, trying not to get crushed.
 tools: NodeJS and Socket.IO

@@ -1,6 +1,7 @@
 title: Flat Mars
 author: Carl Enlund
-image: /images/flat-mars.jpg
+media: /media/flat-mars.jpg
+site:
 download: https://github.com/outyard/outyard.github.io/releases/download/007/flat-mars.zip
 source: https://github.com/carlenlund/flat-mars
 type: game

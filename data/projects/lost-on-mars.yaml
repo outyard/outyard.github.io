@@ -1,7 +1,9 @@
 title: Lost on Mars
 author: Albin Kroon
-video: /videos/lost-on-mars.mp4
+media: /media/lost-on-mars.mp4
+site:
 download: https://github.com/outyard/outyard.github.io/releases/download/007/lost-on-mars.zip
+source:
 type: game
 description: You are lost on Mars and need to find missing parts to rebuild your space ship.
 tools: Unity

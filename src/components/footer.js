@@ -1,9 +1,8 @@
 import React from 'react';
 import {Link} from 'gatsby';
 
-import Container from './container';
-
 import './footer.scss';
+import Container from './container.js';
 
 export default () => (
   <footer className="footer">
