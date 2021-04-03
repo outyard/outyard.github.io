@@ -57,7 +57,11 @@ export default () => {
             .slice()
             .reverse()
             .map((hackathon) =>
-              <div key={hackathon.id} className="hackathon-list-item">
+              <div
+                  key={hackathon.id}
+                  id={hackathon.id}
+                  className="hackathon-list-item"
+                  >
                 <Hackathon
                     id={hackathon.parent.name}
                     title={hackathon.title}

@@ -6,7 +6,6 @@ import Container from './container.js';
 
 export default () => (
   <header className="header">
-    &nbsp;
     <div className="header-wrapper">
       <Container>
         <nav className="header-nav">

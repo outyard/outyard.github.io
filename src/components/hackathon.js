@@ -15,7 +15,7 @@ export default ({id, title, start, end, isTeaser, projects}) => {
   const total = moment(end).diff(start, 'h');
 
   return (
-    <div className="hackathon" id={id}>
+    <div className="hackathon">
       <div className="hackathon-header">
         <Container>
           <div className="hackathon-meta">
