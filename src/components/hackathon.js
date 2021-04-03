@@ -29,7 +29,9 @@ export default ({id, title, start, end, isTeaser, projects}) => {
               <span className="nowrap">{total} hours</span>
             </span>
           </div>
-          <h1 className="hackathon-title">{title}</h1>
+          <h1 className="hackathon-title" dangerouslySetInnerHTML={{__html: `
+            ${title}
+          `}}></h1>
         </Container>
       </div>
 

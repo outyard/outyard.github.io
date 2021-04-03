@@ -8,7 +8,10 @@ export default ({title, author, media, site, download, source, description, tool
   <div className="project">
     <Container>
       <h1 className="project-title">
-        {title} <span className="project-author">by {author}</span>
+        <span dangerouslySetInnerHTML={{__html: `
+          ${title}
+        `}}></span>
+        <span className="project-author">by {author}</span>
       </h1>
 
       {media &&
