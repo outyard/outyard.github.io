@@ -14,7 +14,7 @@ export default () => {
               <Link className="header-nav-link header-nav-logo" to="/">
                 <img className="header-nav-logo-image" src="/media/outyard/logo-cyan.svg" alt="Outyard" />
               </Link>
-              <a className="header-nav-link" href="https://discord.gg/bdh9Sax9" target="_blank" rel="noreferrer">Discord</a>
+              <a className="header-nav-link" href="https://discord.gg/h3nfZmqKYN" target="_blank" rel="noreferrer">Discord</a>
               <Link className="header-nav-link" to="/about">About</Link>
             </div>
           </nav>
