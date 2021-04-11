@@ -6,4 +6,4 @@ download:
 source:
 type: app
 description: This web app uses Markov chains to procedurally generate new tweets from your favorite Twitter users.
-tools: NodeJS and Twit
+tools: JavaScript and Twit

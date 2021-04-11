@@ -1,0 +1,9 @@
+title: Water Game
+author: Carl Enlund
+media: /media/water-game.mp4
+site: https://water-game.herokuapp.com/
+download:
+source: https://github.com/carlenlund/water-game
+type: game
+description: Agar.IO but it&rsquo;s in 3D and underwater.
+tools: JavaScript, A-Frame and Socket.IO
