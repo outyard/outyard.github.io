@@ -26,7 +26,7 @@
       color: $primary-color;
       font-weight: 700;
       letter-spacing: .01em;
-      margin-right: 4em;
+      margin-right: 2.75em;
       position: relative;
       text-decoration: none;
       top: -2.5px;
@@ -46,7 +46,7 @@
     }
 
     &-logo {
-      margin-right: 3.5em;
+      margin-right: 2.5em;
       top: 0;
 
       @media (max-width: $mobile-width) {
@@ -58,7 +58,7 @@
         display: inline-block;
         text-decoration: none;
         vertical-align: top;
-        width: 90px;
+        width: 88px;
 
         @media (max-width: $mobile-width) {
           width: 84px;

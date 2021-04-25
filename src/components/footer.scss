@@ -2,11 +2,10 @@
 
 .footer {
   color: #999;
-  font-weight: 700;
   padding: 0 0 195px;
 
   &-wrapper {
-    border-top: 3.5px solid;
+    border-top: 2px solid;
     padding: 50px 0 0;
   }
 
@@ -36,7 +35,7 @@
 
   &-link {
     display: inline-bock;
-    letter-spacing: .01em;
+    letter-spacing: .005em;
     text-decoration: none;
 
     &:hover {
