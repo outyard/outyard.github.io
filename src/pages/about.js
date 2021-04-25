@@ -11,7 +11,7 @@ export default () => {
       <Article title="About">
         <p>
           Outyard is a hackathon at Uppsala University.
-          The hackathon is meant to inspire personal projects and is an great way to learn programming.
+          The hackathon is meant to inspire personal projects and is a great way to learn programming.
         </p>
         <p>
           Join us on Discord to get notified about future hackathons.
