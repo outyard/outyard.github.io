@@ -2,8 +2,8 @@
 
 .hackathon-timer {
   border-radius: 5px;
-  background: $secondary-color;
-  color: #1e2023;
+  border: 4px solid;
+  color: $secondary-color;
   margin: 70px 0 0;
   padding: 150px 0 200px;
   text-align: center;
@@ -14,15 +14,15 @@
   }
 
   &-started {
-    background: $secondary-color;
+    color: $secondary-color;
   }
 
   &-nearly-finished {
-    background: $tertiary-color;
+    color: $tertiary-color;
   }
 
   &-finished {
-    background: $tertiary-color;
+    color: $tertiary-color;
   }
 
   &-status {
