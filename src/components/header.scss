@@ -3,10 +3,6 @@
 .header {
   position: relative;
 
-  @media (max-width: $mobile-width) {
-    margin: 0 0 11px;
-  }
-
   &-wrapper {
     background: #24292f;
     overflow: hidden;
