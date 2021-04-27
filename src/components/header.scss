@@ -11,10 +11,6 @@
     top: 0;
     width: 100%;
     z-index: 2;
-
-    @media (max-width: $mobile-width) {
-      border-width: 3.5px;
-    }
   }
 
   &-nav {
@@ -22,15 +18,10 @@
       color: $primary-color;
       font-weight: 700;
       letter-spacing: .01em;
-      margin-right: 2.75em;
+      margin-right: 1.9em;
       position: relative;
       text-decoration: none;
-      top: -2.5px;
-
-      @media (max-width: $mobile-width) {
-        margin-right: 1.8em;
-        top: -3px;
-      }
+      top: -3px;
 
       &:last-of-type {
         margin-right: 0;
@@ -42,23 +33,15 @@
     }
 
     &-logo {
-      margin-right: 2.5em;
+      margin-left: .1em;
+      margin-right: 1.9em;
       top: 0;
-
-      @media (max-width: $mobile-width) {
-        margin-left: .1em;
-        margin-right: 1.8em;
-      }
 
       &-image {
         display: inline-block;
         text-decoration: none;
         vertical-align: top;
-        width: 88px;
-
-        @media (max-width: $mobile-width) {
-          width: 84px;
-        }
+        width: 84px;
       }
     }
   }

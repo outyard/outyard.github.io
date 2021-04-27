@@ -2,19 +2,13 @@
 
 .project {
   &-title {
-    color: #aaa;
-    font-size: 35px;
+    color: #b0b0b0;
+    font-size: 30px;
     font-style: italic;
     font-weight: 900;
-    letter-spacing: .01em;
+    letter-spacing: .015em;
     line-height: 1.5;
     word-spacing: .07em;
-
-    @media (max-width: $mobile-width) {
-      font-size: 30px;
-      letter-spacing: .015em;
-      line-height: 1.5;
-    }
   }
 
   &-author {
@@ -29,7 +23,7 @@
   p {
     max-width: $container-width / 2 - $grid-padding;
 
-    @media (max-width: 650px) {
+    @media (max-width: $container-width) {
       max-width: none;
     }
   }

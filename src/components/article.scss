@@ -6,19 +6,13 @@
 
   &-title {
     color: $text-color;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 900;
-    letter-spacing: .01em;
-    line-height: 1.4;
-    margin-bottom: 50px;
+    letter-spacing: .015em;
+    line-height: 1.45;
+    margin-bottom: 30px;
     max-width: 400px;
     word-spacing: .05em;
-
-    @media (max-width: $mobile-width) {
-      font-size: 30px;
-      letter-spacing: .015em;
-      line-height: 1.45;
-    }
   }
 
   p {

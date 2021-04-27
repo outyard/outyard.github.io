@@ -1,52 +1,36 @@
 @import 'constants';
 
 .hackathon-timer {
-  background: $secondary-color;
+  color: $secondary-color;
+  border: 17px solid;
   border-radius: 5px;
-  color: $text-color;
-  margin: 70px 0 0;
-  padding: 100px 0 140px;
+  margin: 45px 0 0;
+  padding: 75px 0 95px;
   text-align: center;
 
-  @media (max-width: $mobile-width) {
-    margin: 45px 0 0;
-    padding: 75px 0 95px;
-  }
-
   &-started {
-    background: $secondary-color;
+    color: $secondary-color;
   }
 
   &-nearly-finished {
-    background: $tertiary-color;
+    color: $tertiary-color;
   }
 
   &-finished {
-    background: $tertiary-color;
+    color: $tertiary-color;
   }
 
   &-status {
     font-weight: 700;
     letter-spacing: .01em;
     line-height: 1.2;
-    margin-bottom: 15px;
-
-    @media (max-width: $mobile-width) {
-      margin-bottom: 9px;
-    }
+    margin-bottom: 9px;
   }
 
   &-time {
-    font-size: 87px;
+    font-size: 46px;
     font-variant-numeric: tabular-nums;
     font-weight: 900;
-    letter-spacing: -.005em;
-    line-height: 102px;
-
-    @media (max-width: $mobile-width) {
-      font-size: 46px;
-      letter-spacing: 0;
-      line-height: 60px;
-    }
+    line-height: 60px;
   }
 }
