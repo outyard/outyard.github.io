@@ -1,11 +1,11 @@
 @import 'constants';
 
 .hackathon-timer {
+  background: $secondary-color;
   border-radius: 5px;
-  border: 4px solid;
-  color: $secondary-color;
+  color: $text-color;
   margin: 70px 0 0;
-  padding: 120px 0 160px;
+  padding: 100px 0 140px;
   text-align: center;
 
   @media (max-width: $mobile-width) {
@@ -14,15 +14,15 @@
   }
 
   &-started {
-    color: $secondary-color;
+    background: $secondary-color;
   }
 
   &-nearly-finished {
-    color: $tertiary-color;
+    background: $tertiary-color;
   }
 
   &-finished {
-    color: $tertiary-color;
+    background: $tertiary-color;
   }
 
   &-status {
