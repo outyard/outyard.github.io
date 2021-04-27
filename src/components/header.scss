@@ -1,10 +1,11 @@
 @import 'constants';
 
 .header {
+  margin-top: 40px;
   position: relative;
 
   &-wrapper {
-    background: #24292f;
+    background: #24272f;
     overflow: hidden;
     padding: 30px 0;
     position: fixed;

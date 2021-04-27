@@ -1,23 +1,23 @@
 @import 'constants';
 
 .hackathon-timer {
-  color: $secondary-color;
-  border: 17px solid;
+  background: $primary-color;
   border-radius: 5px;
+  color: #24292f;
   margin: 45px 0 0;
   padding: 75px 0 95px;
   text-align: center;
 
   &-started {
-    color: $secondary-color;
+    background: $secondary-color;
   }
 
   &-nearly-finished {
-    color: $tertiary-color;
+    background: $tertiary-color;
   }
 
   &-finished {
-    color: $tertiary-color;
+    background: $tertiary-color;
   }
 
   &-status {
