@@ -5,5 +5,5 @@ site: https://jakobpaulsson.github.io/Hackathon/View/
 download:
 source: https://github.com/JakobPaulsson/Hackathon
 type: game
-description: 
+description: The AI either goes in the right or the wrong direction.
 tools: JavaScript
