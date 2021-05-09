@@ -1,0 +1,9 @@
+title: Petrock Rocket Racing
+author: Anton Bergåker
+media: /media/petrock-rocket-racing.mp4
+site: https://anton.bergaker.com/petrock_rocket_racing/
+download:
+source: https://github.com/AntonBergaker/PetrockRocketRacing
+type: game
+description: Race using rocket launchers and bazookas and become the fastest petrock on the block. Four petrocks are in a race to the finish line.
+tools: GameMaker

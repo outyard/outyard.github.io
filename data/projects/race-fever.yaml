@@ -1,0 +1,9 @@
+title: Race Fever!
+author: Niclas Gards
+media: /media/race-fever.mp4
+site:
+download:
+source: https://github.com/niclasgardsuu/Hackathon-SFML-210508
+type: game
+description: Beat the computer-controlled opponents on this unconventional race track!
+tools: C++ and SFML
