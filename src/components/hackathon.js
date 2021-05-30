@@ -19,7 +19,16 @@ export default ({
   projects,
 }) => {
   const date = moment(start).format("D MMM YYYY");
-  const total = moment(end).diff(start, 'h');
+  const totalHours = moment(end).diff(start, 'h');
+  const totalDays = moment(end).diff(start, 'day');
+  const longTimeLeft = totalHours >= 48;
+
+  let timeComponent;
+  if (longTimeLeft) {
+    timeComponent = <>{totalDays} days</>;
+  } else {
+    timeComponent = <>{totalHours} hours</>;
+  }
 
   return (
     <div className={'hackathon' + (isTeaser ? ' hackathon-teaser' : '')}>
@@ -27,13 +36,14 @@ export default ({
         <Container>
           <div className="hackathon-meta">
             <a className="hackathon-meta-item" href={'#' + id}>
-              <span className="hackathon-meta-id-hash">#</span>{id}
+              <span className="hackathon-meta-id-hash">#</span>{/*
+              */}<span className="hackathon-meta-id">{id}</span>
             </a>
             <span className="hackathon-meta-item">
               <span className="nowrap">{date}</span>
             </span>
             <span className="hackathon-meta-item">
-              <span className="nowrap">{total} hours</span>
+              <span className="nowrap">{timeComponent}</span>
             </span>
           </div>
           <h1 className="hackathon-title" dangerouslySetInnerHTML={{__html: `

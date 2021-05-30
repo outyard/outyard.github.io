@@ -11,26 +11,49 @@ export default ({start, end}) => {
   const [time, setTime] = useState(0);
 
   useInterval(() => {
-    const now = moment();
-    const started = now.isSameOrAfter(start);
-    const difference = started
-        ? moment(end).diff(now, 's')
-        : moment(start).diff(now, 's');
-    const time = Math.max(difference, 0);
-    setTime(time);
+    setTime(moment().valueOf());
   }, 500);
 
-  const now = moment();
-  const duration = moment.duration(time, 's');
+  const now = moment(time);
+  const started = now.isAfter(start);
+
+  const difference = started
+      ? moment(end).diff(now, 's')
+      : moment(start).diff(now, 's');
+  const timeLeft = Math.max(difference, 0);
+
+  const nowDay = now.startOf('day');
+  const startDay = moment(start).startOf('day');
+  const endDay = moment(end).startOf('day');
+  const differenceDays = started
+      ? endDay.diff(nowDay, 's')
+      : startDay.diff(nowDay, 's');
+  const timeLeftDays = Math.max(differenceDays, 0);
+
+  const duration = moment.duration(timeLeft, 's');
+  const durationDays = moment.duration(timeLeftDays, 's');
   const hours = duration.asHours();
   const startingSoon = now.isSameOrBefore(start);
-  const started = now.isAfter(start);
   const finished = started && hours <= 0;
   const nearlyFinished = hours < 1 && hours >= 0 && !finished;
   const nearlyStarted = hours < 1 && hours >= 0 && !started;
+  const longTimeLeft = hours >= 48;
 
-  const timeText = duration.format('hh:mm:ss', {trim: false});
-  const [timeHours, timeMinutes, timeSeconds] = timeText.split(':');
+  let timeComponent;
+  if (longTimeLeft) {
+    const days = durationDays.asDays();
+    timeComponent = <>
+      {days} days
+    </>;
+  } else {
+    const timeText = duration.format('hh:mm:ss', {trim: false});
+    const [timeHours, timeMinutes, timeSeconds] = timeText.split(':');
+    timeComponent = <>
+      {timeHours}<span className="hackathon-timer-time-colon">:</span>{/*
+      */}{timeMinutes}<span className="hackathon-timer-time-colon">:</span>{/*
+      */}{timeSeconds}
+    </>;
+  }
 
   return (
     <Container>
@@ -49,9 +72,7 @@ export default ({start, end}) => {
           {finished ? 'Time’s up! ggwp' : ''}
         </p>
         <h1 className="hackathon-timer-time">
-          {timeHours}<span className="hackathon-timer-time-colon">:</span>{/*
-          */}{timeMinutes}<span className="hackathon-timer-time-colon">:</span>{/*
-          */}{timeSeconds}
+          {timeComponent}
         </h1>
       </div>
     </Container>
