@@ -66,7 +66,7 @@ export default ({start, end}) => {
           `}
           >
         <p className="hackathon-timer-status">
-          {startingSoon ? 'Starting in' : ''}
+          {startingSoon && !started ? 'Starting in' : ''}
           {started && !nearlyFinished && !finished ? 'Happy hacking' : ''}
           {started && nearlyFinished ? 'Time flies' : ''}
           {finished ? 'Time’s up! ggwp' : ''}
