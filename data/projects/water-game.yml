@@ -6,4 +6,4 @@ download:
 source: https://github.com/carlenlund/water-game
 type: game
 description: Agar.io but it&rsquo;s in 3D and underwater. In this multiplayer game you absorb other players to become as big as possible.
-tools: JavaScript, A-Frame and Socket.IO
+tools: NodeJS, A-Frame and Socket.IO

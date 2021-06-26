@@ -1,0 +1,9 @@
+title: FPS Chess
+author: Jacob S.
+media: /media/fps-chess.mp4
+site:
+download: https://github.com/outyard/outyard.github.io/releases/download/010/fps-chess.zip
+source:
+type: game
+description: Chess seen from a new perspective.
+tools: Unity

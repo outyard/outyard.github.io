@@ -6,4 +6,4 @@ download:
 source: https://github.com/outyard/shooter
 type: game
 description: A web-based first-person shooter where the players fight eachother to see who first scores 10 points. The game contains 5 unique maps which are cycled through after each win.
-tools: JavaScript, Socket.IO and Three.js
+tools: NodeJS, Socket.IO and Three.js
