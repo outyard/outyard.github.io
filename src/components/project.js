@@ -2,7 +2,7 @@ import React from 'react';
 
 import './project.scss';
 import Container from './container.js';
-import Media from './media.js';
+import ProjectMedia from './project-media.js';
 
 export default ({
   title,
@@ -27,7 +27,7 @@ export default ({
 
         {media &&
           <div className="project-media">
-            <Media url={media} />
+            <ProjectMedia url={media} />
           </div>
         }
 

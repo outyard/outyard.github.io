@@ -3,11 +3,10 @@
 .container {
   box-sizing: content-box;
   margin: 0 auto;
-  max-width: $container-width;
-  padding: 0 20px;
+  padding: 0 $container-padding;
 
-  @media (max-width: $container-width * 1.25) {
-    max-width: none;
+  @media (min-width: $mobile-width) {
+    max-width: $container-width;
   }
 
   &-wide {

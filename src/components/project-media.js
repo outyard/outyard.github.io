@@ -1,6 +1,6 @@
 import React from 'react';
 
-import './media.scss';
+import './project-media.scss';
 
 export default ({url}) => {
   return (

@@ -1,0 +1,21 @@
+@import 'constants';
+
+.media {
+  $overshoot: 00px;
+
+  margin: 0 (-1 * $container-padding);
+
+  @media (min-width: $mobile-width) {
+    margin: 0 (-1 * $overshoot);
+  }
+
+  &-image,
+  &-video {
+    display: block;
+    width: 100%;
+
+    @media (min-width: $mobile-width) {
+      border-radius: 8px;
+    }
+  }
+}

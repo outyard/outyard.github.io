@@ -12,6 +12,7 @@
     font-weight: 700;
     letter-spacing: .01em;
     line-height: 1.2;
+    margin-left: -.02em;
     position: relative;
     text-transform: lowercase;
     z-index: 1;
@@ -36,13 +37,16 @@
   }
 
   &-title {
-    color: $text-color;
     font-size: 46px;
     font-weight: 900;
     line-height: 58px;
-    margin-left: -.03em;
+    margin-left: -.035em;
     text-indent: -.03em;
     word-spacing: .06em;
+
+    &-inner {
+      border-bottom: 4px solid;
+    }
   }
 
   &-projects {

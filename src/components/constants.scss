@@ -1,5 +1,7 @@
 $container-width: 600px;
+$container-padding: 20px;
 $grid-padding: 15px;
+$mobile-width: $container-width + 10*$container-padding;
 
 $primary-color: #65aaff;
 $secondary-color: #ffc966;
