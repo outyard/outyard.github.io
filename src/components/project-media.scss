@@ -3,11 +3,8 @@
 .media {
   &-image,
   &-video {
+    border-radius: 8px;
     display: block;
     width: 100%;
-
-    @media (min-width: $mobile-width) {
-      border-radius: 8px;
-    }
   }
 }
