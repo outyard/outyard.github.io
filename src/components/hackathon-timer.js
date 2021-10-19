@@ -41,7 +41,7 @@ export default ({start, end}) => {
 
   let timeComponent;
   if (longTimeLeft) {
-    const days = durationDays.asDays();
+    const days = Math.round(durationDays.asDays());
     timeComponent = <>
       {days} days
     </>;
