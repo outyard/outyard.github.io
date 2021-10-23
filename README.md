@@ -1,4 +1,4 @@
-# outyard.github.io
+# [outyard.github.io](https://outyard.github.io)
 
 Website for Outyard, displaying projects made during past hackathons.
 
