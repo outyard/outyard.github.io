@@ -8,6 +8,10 @@
     border-top: 1.5px solid;
     max-width: $container-width / 2 - $grid-padding;
     padding: 34px 0 0;
+
+    @media (max-width: 650px) {
+      max-width: none;
+    }
   }
 
   p + p {
